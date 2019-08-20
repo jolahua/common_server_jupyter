@@ -1,0 +1,1245 @@
+/jola/spark/
+├── iris_libsvm.txt
+├── myTest.class
+├── myTest.java
+├── py4j-0.10.7.jar
+├── pyspark-2.4.3
+│   ├── build
+│   │   ├── bdist.linux-x86_64
+│   │   ├── lib
+│   │   │   └── pyspark
+│   │   │       ├── accumulators.py
+│   │   │       ├── bin
+│   │   │       │   ├── beeline
+│   │   │       │   ├── beeline.cmd
+│   │   │       │   ├── docker-image-tool.sh
+│   │   │       │   ├── find-spark-home
+│   │   │       │   ├── find-spark-home.cmd
+│   │   │       │   ├── load-spark-env.cmd
+│   │   │       │   ├── load-spark-env.sh
+│   │   │       │   ├── pyspark
+│   │   │       │   ├── pyspark2.cmd
+│   │   │       │   ├── pyspark.cmd
+│   │   │       │   ├── run-example
+│   │   │       │   ├── run-example.cmd
+│   │   │       │   ├── spark-class
+│   │   │       │   ├── spark-class2.cmd
+│   │   │       │   ├── spark-class.cmd
+│   │   │       │   ├── sparkR
+│   │   │       │   ├── sparkR2.cmd
+│   │   │       │   ├── sparkR.cmd
+│   │   │       │   ├── spark-shell
+│   │   │       │   ├── spark-shell2.cmd
+│   │   │       │   ├── spark-shell.cmd
+│   │   │       │   ├── spark-sql
+│   │   │       │   ├── spark-sql2.cmd
+│   │   │       │   ├── spark-sql.cmd
+│   │   │       │   ├── spark-submit
+│   │   │       │   ├── spark-submit2.cmd
+│   │   │       │   └── spark-submit.cmd
+│   │   │       ├── broadcast.py
+│   │   │       ├── cloudpickle.py
+│   │   │       ├── conf.py
+│   │   │       ├── context.py
+│   │   │       ├── daemon.py
+│   │   │       ├── data
+│   │   │       │   ├── graphx
+│   │   │       │   │   ├── followers.txt
+│   │   │       │   │   └── users.txt
+│   │   │       │   ├── mllib
+│   │   │       │   │   ├── als
+│   │   │       │   │   │   ├── sample_movielens_ratings.txt
+│   │   │       │   │   │   └── test.data
+│   │   │       │   │   ├── gmm_data.txt
+│   │   │       │   │   ├── images
+│   │   │       │   │   │   ├── license.txt
+│   │   │       │   │   │   ├── origin
+│   │   │       │   │   │   │   ├── kittens
+│   │   │       │   │   │   │   │   └── not-image.txt
+│   │   │       │   │   │   │   └── license.txt
+│   │   │       │   │   │   └── partitioned
+│   │   │       │   │   │       └── cls=kittens
+│   │   │       │   │   │           └── date=2018-01
+│   │   │       │   │   │               └── not-image.txt
+│   │   │       │   │   ├── iris_libsvm.txt
+│   │   │       │   │   ├── kmeans_data.txt
+│   │   │       │   │   ├── pagerank_data.txt
+│   │   │       │   │   ├── pic_data.txt
+│   │   │       │   │   ├── ridge-data
+│   │   │       │   │   │   └── lpsa.data
+│   │   │       │   │   ├── sample_binary_classification_data.txt
+│   │   │       │   │   ├── sample_fpgrowth.txt
+│   │   │       │   │   ├── sample_isotonic_regression_libsvm_data.txt
+│   │   │       │   │   ├── sample_kmeans_data.txt
+│   │   │       │   │   ├── sample_lda_data.txt
+│   │   │       │   │   ├── sample_lda_libsvm_data.txt
+│   │   │       │   │   ├── sample_libsvm_data.txt
+│   │   │       │   │   ├── sample_linear_regression_data.txt
+│   │   │       │   │   ├── sample_movielens_data.txt
+│   │   │       │   │   ├── sample_multiclass_classification_data.txt
+│   │   │       │   │   ├── sample_svm_data.txt
+│   │   │       │   │   └── streaming_kmeans_data_test.txt
+│   │   │       │   └── streaming
+│   │   │       │       └── AFINN-111.txt
+│   │   │       ├── examples
+│   │   │       │   └── src
+│   │   │       │       └── main
+│   │   │       │           └── python
+│   │   │       │               ├── als.py
+│   │   │       │               ├── avro_inputformat.py
+│   │   │       │               ├── kmeans.py
+│   │   │       │               ├── logistic_regression.py
+│   │   │       │               ├── ml
+│   │   │       │               │   ├── aft_survival_regression.py
+│   │   │       │               │   ├── als_example.py
+│   │   │       │               │   ├── binarizer_example.py
+│   │   │       │               │   ├── bisecting_k_means_example.py
+│   │   │       │               │   ├── bucketed_random_projection_lsh_example.py
+│   │   │       │               │   ├── bucketizer_example.py
+│   │   │       │               │   ├── chisq_selector_example.py
+│   │   │       │               │   ├── chi_square_test_example.py
+│   │   │       │               │   ├── correlation_example.py
+│   │   │       │               │   ├── count_vectorizer_example.py
+│   │   │       │               │   ├── cross_validator.py
+│   │   │       │               │   ├── dataframe_example.py
+│   │   │       │               │   ├── dct_example.py
+│   │   │       │               │   ├── decision_tree_classification_example.py
+│   │   │       │               │   ├── decision_tree_regression_example.py
+│   │   │       │               │   ├── elementwise_product_example.py
+│   │   │       │               │   ├── estimator_transformer_param_example.py
+│   │   │       │               │   ├── feature_hasher_example.py
+│   │   │       │               │   ├── fpgrowth_example.py
+│   │   │       │               │   ├── gaussian_mixture_example.py
+│   │   │       │               │   ├── generalized_linear_regression_example.py
+│   │   │       │               │   ├── gradient_boosted_tree_classifier_example.py
+│   │   │       │               │   ├── gradient_boosted_tree_regressor_example.py
+│   │   │       │               │   ├── imputer_example.py
+│   │   │       │               │   ├── index_to_string_example.py
+│   │   │       │               │   ├── isotonic_regression_example.py
+│   │   │       │               │   ├── kmeans_example.py
+│   │   │       │               │   ├── lda_example.py
+│   │   │       │               │   ├── linear_regression_with_elastic_net.py
+│   │   │       │               │   ├── linearsvc.py
+│   │   │       │               │   ├── logistic_regression_summary_example.py
+│   │   │       │               │   ├── logistic_regression_with_elastic_net.py
+│   │   │       │               │   ├── max_abs_scaler_example.py
+│   │   │       │               │   ├── min_hash_lsh_example.py
+│   │   │       │               │   ├── min_max_scaler_example.py
+│   │   │       │               │   ├── multiclass_logistic_regression_with_elastic_net.py
+│   │   │       │               │   ├── multilayer_perceptron_classification.py
+│   │   │       │               │   ├── naive_bayes_example.py
+│   │   │       │               │   ├── n_gram_example.py
+│   │   │       │               │   ├── normalizer_example.py
+│   │   │       │               │   ├── onehot_encoder_estimator_example.py
+│   │   │       │               │   ├── one_vs_rest_example.py
+│   │   │       │               │   ├── pca_example.py
+│   │   │       │               │   ├── pipeline_example.py
+│   │   │       │               │   ├── polynomial_expansion_example.py
+│   │   │       │               │   ├── prefixspan_example.py
+│   │   │       │               │   ├── quantile_discretizer_example.py
+│   │   │       │               │   ├── random_forest_classifier_example.py
+│   │   │       │               │   ├── random_forest_regressor_example.py
+│   │   │       │               │   ├── rformula_example.py
+│   │   │       │               │   ├── sql_transformer.py
+│   │   │       │               │   ├── standard_scaler_example.py
+│   │   │       │               │   ├── stopwords_remover_example.py
+│   │   │       │               │   ├── string_indexer_example.py
+│   │   │       │               │   ├── summarizer_example.py
+│   │   │       │               │   ├── tf_idf_example.py
+│   │   │       │               │   ├── tokenizer_example.py
+│   │   │       │               │   ├── train_validation_split.py
+│   │   │       │               │   ├── vector_assembler_example.py
+│   │   │       │               │   ├── vector_indexer_example.py
+│   │   │       │               │   ├── vector_size_hint_example.py
+│   │   │       │               │   ├── vector_slicer_example.py
+│   │   │       │               │   └── word2vec_example.py
+│   │   │       │               ├── mllib
+│   │   │       │               │   ├── binary_classification_metrics_example.py
+│   │   │       │               │   ├── bisecting_k_means_example.py
+│   │   │       │               │   ├── correlations_example.py
+│   │   │       │               │   ├── correlations.py
+│   │   │       │               │   ├── decision_tree_classification_example.py
+│   │   │       │               │   ├── decision_tree_regression_example.py
+│   │   │       │               │   ├── elementwise_product_example.py
+│   │   │       │               │   ├── fpgrowth_example.py
+│   │   │       │               │   ├── gaussian_mixture_example.py
+│   │   │       │               │   ├── gaussian_mixture_model.py
+│   │   │       │               │   ├── gradient_boosting_classification_example.py
+│   │   │       │               │   ├── gradient_boosting_regression_example.py
+│   │   │       │               │   ├── hypothesis_testing_example.py
+│   │   │       │               │   ├── hypothesis_testing_kolmogorov_smirnov_test_example.py
+│   │   │       │               │   ├── isotonic_regression_example.py
+│   │   │       │               │   ├── kernel_density_estimation_example.py
+│   │   │       │               │   ├── k_means_example.py
+│   │   │       │               │   ├── kmeans.py
+│   │   │       │               │   ├── latent_dirichlet_allocation_example.py
+│   │   │       │               │   ├── linear_regression_with_sgd_example.py
+│   │   │       │               │   ├── logistic_regression.py
+│   │   │       │               │   ├── logistic_regression_with_lbfgs_example.py
+│   │   │       │               │   ├── multi_class_metrics_example.py
+│   │   │       │               │   ├── multi_label_metrics_example.py
+│   │   │       │               │   ├── naive_bayes_example.py
+│   │   │       │               │   ├── normalizer_example.py
+│   │   │       │               │   ├── pca_rowmatrix_example.py
+│   │   │       │               │   ├── power_iteration_clustering_example.py
+│   │   │       │               │   ├── random_forest_classification_example.py
+│   │   │       │               │   ├── random_forest_regression_example.py
+│   │   │       │               │   ├── random_rdd_generation.py
+│   │   │       │               │   ├── ranking_metrics_example.py
+│   │   │       │               │   ├── recommendation_example.py
+│   │   │       │               │   ├── regression_metrics_example.py
+│   │   │       │               │   ├── sampled_rdds.py
+│   │   │       │               │   ├── standard_scaler_example.py
+│   │   │       │               │   ├── stratified_sampling_example.py
+│   │   │       │               │   ├── streaming_k_means_example.py
+│   │   │       │               │   ├── streaming_linear_regression_example.py
+│   │   │       │               │   ├── summary_statistics_example.py
+│   │   │       │               │   ├── svd_example.py
+│   │   │       │               │   ├── svm_with_sgd_example.py
+│   │   │       │               │   ├── tf_idf_example.py
+│   │   │       │               │   ├── word2vec_example.py
+│   │   │       │               │   └── word2vec.py
+│   │   │       │               ├── pagerank.py
+│   │   │       │               ├── parquet_inputformat.py
+│   │   │       │               ├── pi.py
+│   │   │       │               ├── sort.py
+│   │   │       │               ├── sql
+│   │   │       │               │   ├── arrow.py
+│   │   │       │               │   ├── basic.py
+│   │   │       │               │   ├── datasource.py
+│   │   │       │               │   ├── hive.py
+│   │   │       │               │   └── streaming
+│   │   │       │               │       ├── structured_kafka_wordcount.py
+│   │   │       │               │       ├── structured_network_wordcount.py
+│   │   │       │               │       └── structured_network_wordcount_windowed.py
+│   │   │       │               ├── status_api_demo.py
+│   │   │       │               ├── streaming
+│   │   │       │               │   ├── direct_kafka_wordcount.py
+│   │   │       │               │   ├── flume_wordcount.py
+│   │   │       │               │   ├── hdfs_wordcount.py
+│   │   │       │               │   ├── kafka_wordcount.py
+│   │   │       │               │   ├── network_wordcount.py
+│   │   │       │               │   ├── network_wordjoinsentiments.py
+│   │   │       │               │   ├── queue_stream.py
+│   │   │       │               │   ├── recoverable_network_wordcount.py
+│   │   │       │               │   ├── sql_network_wordcount.py
+│   │   │       │               │   └── stateful_network_wordcount.py
+│   │   │       │               ├── transitive_closure.py
+│   │   │       │               └── wordcount.py
+│   │   │       ├── files.py
+│   │   │       ├── find_spark_home.py
+│   │   │       ├── _globals.py
+│   │   │       ├── heapq3.py
+│   │   │       ├── __init__.py
+│   │   │       ├── jars
+│   │   │       │   ├── activation-1.1.1.jar
+│   │   │       │   ├── aircompressor-0.10.jar
+│   │   │       │   ├── antlr-2.7.7.jar
+│   │   │       │   ├── antlr4-runtime-4.7.jar
+│   │   │       │   ├── antlr-runtime-3.4.jar
+│   │   │       │   ├── aopalliance-1.0.jar
+│   │   │       │   ├── aopalliance-repackaged-2.4.0-b34.jar
+│   │   │       │   ├── apacheds-i18n-2.0.0-M15.jar
+│   │   │       │   ├── apacheds-kerberos-codec-2.0.0-M15.jar
+│   │   │       │   ├── apache-log4j-extras-1.2.17.jar
+│   │   │       │   ├── api-asn1-api-1.0.0-M20.jar
+│   │   │       │   ├── api-util-1.0.0-M20.jar
+│   │   │       │   ├── arpack_combined_all-0.1.jar
+│   │   │       │   ├── arrow-format-0.10.0.jar
+│   │   │       │   ├── arrow-memory-0.10.0.jar
+│   │   │       │   ├── arrow-vector-0.10.0.jar
+│   │   │       │   ├── automaton-1.11-8.jar
+│   │   │       │   ├── avro-1.8.2.jar
+│   │   │       │   ├── avro-ipc-1.8.2.jar
+│   │   │       │   ├── avro-mapred-1.8.2-hadoop2.jar
+│   │   │       │   ├── bonecp-0.8.0.RELEASE.jar
+│   │   │       │   ├── breeze_2.11-0.13.2.jar
+│   │   │       │   ├── breeze-macros_2.11-0.13.2.jar
+│   │   │       │   ├── calcite-avatica-1.2.0-incubating.jar
+│   │   │       │   ├── calcite-core-1.2.0-incubating.jar
+│   │   │       │   ├── calcite-linq4j-1.2.0-incubating.jar
+│   │   │       │   ├── chill_2.11-0.9.3.jar
+│   │   │       │   ├── chill-java-0.9.3.jar
+│   │   │       │   ├── commons-beanutils-1.9.3.jar
+│   │   │       │   ├── commons-cli-1.2.jar
+│   │   │       │   ├── commons-codec-1.10.jar
+│   │   │       │   ├── commons-collections-3.2.2.jar
+│   │   │       │   ├── commons-compiler-3.0.9.jar
+│   │   │       │   ├── commons-compress-1.8.1.jar
+│   │   │       │   ├── commons-configuration-1.6.jar
+│   │   │       │   ├── commons-crypto-1.0.0.jar
+│   │   │       │   ├── commons-dbcp-1.4.jar
+│   │   │       │   ├── commons-digester-1.8.jar
+│   │   │       │   ├── commons-httpclient-3.1.jar
+│   │   │       │   ├── commons-io-2.4.jar
+│   │   │       │   ├── commons-lang-2.6.jar
+│   │   │       │   ├── commons-lang3-3.5.jar
+│   │   │       │   ├── commons-logging-1.1.3.jar
+│   │   │       │   ├── commons-math3-3.4.1.jar
+│   │   │       │   ├── commons-net-3.1.jar
+│   │   │       │   ├── commons-pool-1.5.4.jar
+│   │   │       │   ├── compress-lzf-1.0.3.jar
+│   │   │       │   ├── core-1.1.2.jar
+│   │   │       │   ├── curator-client-2.7.1.jar
+│   │   │       │   ├── curator-framework-2.7.1.jar
+│   │   │       │   ├── curator-recipes-2.7.1.jar
+│   │   │       │   ├── datanucleus-api-jdo-3.2.6.jar
+│   │   │       │   ├── datanucleus-core-3.2.10.jar
+│   │   │       │   ├── datanucleus-rdbms-3.2.9.jar
+│   │   │       │   ├── derby-10.12.1.1.jar
+│   │   │       │   ├── eigenbase-properties-1.1.5.jar
+│   │   │       │   ├── flatbuffers-1.2.0-3f79e055.jar
+│   │   │       │   ├── generex-1.0.1.jar
+│   │   │       │   ├── gson-2.2.4.jar
+│   │   │       │   ├── guava-14.0.1.jar
+│   │   │       │   ├── guice-3.0.jar
+│   │   │       │   ├── guice-servlet-3.0.jar
+│   │   │       │   ├── hadoop-annotations-2.7.3.jar
+│   │   │       │   ├── hadoop-auth-2.7.3.jar
+│   │   │       │   ├── hadoop-client-2.7.3.jar
+│   │   │       │   ├── hadoop-common-2.7.3.jar
+│   │   │       │   ├── hadoop-hdfs-2.7.3.jar
+│   │   │       │   ├── hadoop-mapreduce-client-app-2.7.3.jar
+│   │   │       │   ├── hadoop-mapreduce-client-common-2.7.3.jar
+│   │   │       │   ├── hadoop-mapreduce-client-core-2.7.3.jar
+│   │   │       │   ├── hadoop-mapreduce-client-jobclient-2.7.3.jar
+│   │   │       │   ├── hadoop-mapreduce-client-shuffle-2.7.3.jar
+│   │   │       │   ├── hadoop-yarn-api-2.7.3.jar
+│   │   │       │   ├── hadoop-yarn-client-2.7.3.jar
+│   │   │       │   ├── hadoop-yarn-common-2.7.3.jar
+│   │   │       │   ├── hadoop-yarn-server-common-2.7.3.jar
+│   │   │       │   ├── hadoop-yarn-server-web-proxy-2.7.3.jar
+│   │   │       │   ├── hive-beeline-1.2.1.spark2.jar
+│   │   │       │   ├── hive-cli-1.2.1.spark2.jar
+│   │   │       │   ├── hive-exec-1.2.1.spark2.jar
+│   │   │       │   ├── hive-jdbc-1.2.1.spark2.jar
+│   │   │       │   ├── hive-metastore-1.2.1.spark2.jar
+│   │   │       │   ├── hk2-api-2.4.0-b34.jar
+│   │   │       │   ├── hk2-locator-2.4.0-b34.jar
+│   │   │       │   ├── hk2-utils-2.4.0-b34.jar
+│   │   │       │   ├── hppc-0.7.2.jar
+│   │   │       │   ├── htrace-core-3.1.0-incubating.jar
+│   │   │       │   ├── httpclient-4.5.6.jar
+│   │   │       │   ├── httpcore-4.4.10.jar
+│   │   │       │   ├── ivy-2.4.0.jar
+│   │   │       │   ├── jackson-annotations-2.6.7.jar
+│   │   │       │   ├── jackson-core-2.6.7.jar
+│   │   │       │   ├── jackson-core-asl-1.9.13.jar
+│   │   │       │   ├── jackson-databind-2.6.7.1.jar
+│   │   │       │   ├── jackson-dataformat-yaml-2.6.7.jar
+│   │   │       │   ├── jackson-jaxrs-1.9.13.jar
+│   │   │       │   ├── jackson-mapper-asl-1.9.13.jar
+│   │   │       │   ├── jackson-module-jaxb-annotations-2.6.7.jar
+│   │   │       │   ├── jackson-module-paranamer-2.7.9.jar
+│   │   │       │   ├── jackson-module-scala_2.11-2.6.7.1.jar
+│   │   │       │   ├── jackson-xc-1.9.13.jar
+│   │   │       │   ├── janino-3.0.9.jar
+│   │   │       │   ├── JavaEWAH-0.3.2.jar
+│   │   │       │   ├── javassist-3.18.1-GA.jar
+│   │   │       │   ├── javax.annotation-api-1.2.jar
+│   │   │       │   ├── javax.inject-1.jar
+│   │   │       │   ├── javax.inject-2.4.0-b34.jar
+│   │   │       │   ├── javax.servlet-api-3.1.0.jar
+│   │   │       │   ├── javax.ws.rs-api-2.0.1.jar
+│   │   │       │   ├── javolution-5.5.1.jar
+│   │   │       │   ├── jaxb-api-2.2.2.jar
+│   │   │       │   ├── jcl-over-slf4j-1.7.16.jar
+│   │   │       │   ├── jdo-api-3.0.1.jar
+│   │   │       │   ├── jersey-client-2.22.2.jar
+│   │   │       │   ├── jersey-common-2.22.2.jar
+│   │   │       │   ├── jersey-container-servlet-2.22.2.jar
+│   │   │       │   ├── jersey-container-servlet-core-2.22.2.jar
+│   │   │       │   ├── jersey-guava-2.22.2.jar
+│   │   │       │   ├── jersey-media-jaxb-2.22.2.jar
+│   │   │       │   ├── jersey-server-2.22.2.jar
+│   │   │       │   ├── jetty-6.1.26.jar
+│   │   │       │   ├── jetty-util-6.1.26.jar
+│   │   │       │   ├── jline-2.14.6.jar
+│   │   │       │   ├── joda-time-2.9.3.jar
+│   │   │       │   ├── jodd-core-3.5.2.jar
+│   │   │       │   ├── jpam-1.1.jar
+│   │   │       │   ├── json4s-ast_2.11-3.5.3.jar
+│   │   │       │   ├── json4s-core_2.11-3.5.3.jar
+│   │   │       │   ├── json4s-jackson_2.11-3.5.3.jar
+│   │   │       │   ├── json4s-scalap_2.11-3.5.3.jar
+│   │   │       │   ├── jsp-api-2.1.jar
+│   │   │       │   ├── jsr305-1.3.9.jar
+│   │   │       │   ├── jta-1.1.jar
+│   │   │       │   ├── jtransforms-2.4.0.jar
+│   │   │       │   ├── jul-to-slf4j-1.7.16.jar
+│   │   │       │   ├── kryo-shaded-4.0.2.jar
+│   │   │       │   ├── kubernetes-client-4.1.2.jar
+│   │   │       │   ├── kubernetes-model-4.1.2.jar
+│   │   │       │   ├── kubernetes-model-common-4.1.2.jar
+│   │   │       │   ├── leveldbjni-all-1.8.jar
+│   │   │       │   ├── libfb303-0.9.3.jar
+│   │   │       │   ├── libthrift-0.9.3.jar
+│   │   │       │   ├── log4j-1.2.17.jar
+│   │   │       │   ├── logging-interceptor-3.12.0.jar
+│   │   │       │   ├── lz4-java-1.4.0.jar
+│   │   │       │   ├── machinist_2.11-0.6.1.jar
+│   │   │       │   ├── macro-compat_2.11-1.1.1.jar
+│   │   │       │   ├── mesos-1.4.0-shaded-protobuf.jar
+│   │   │       │   ├── metrics-core-3.1.5.jar
+│   │   │       │   ├── metrics-graphite-3.1.5.jar
+│   │   │       │   ├── metrics-json-3.1.5.jar
+│   │   │       │   ├── metrics-jvm-3.1.5.jar
+│   │   │       │   ├── minlog-1.3.0.jar
+│   │   │       │   ├── netty-3.9.9.Final.jar
+│   │   │       │   ├── netty-all-4.1.17.Final.jar
+│   │   │       │   ├── objenesis-2.5.1.jar
+│   │   │       │   ├── okhttp-3.8.1.jar
+│   │   │       │   ├── okio-1.13.0.jar
+│   │   │       │   ├── opencsv-2.3.jar
+│   │   │       │   ├── orc-core-1.5.5-nohive.jar
+│   │   │       │   ├── orc-mapreduce-1.5.5-nohive.jar
+│   │   │       │   ├── orc-shims-1.5.5.jar
+│   │   │       │   ├── oro-2.0.8.jar
+│   │   │       │   ├── osgi-resource-locator-1.0.1.jar
+│   │   │       │   ├── paranamer-2.8.jar
+│   │   │       │   ├── parquet-column-1.10.1.jar
+│   │   │       │   ├── parquet-common-1.10.1.jar
+│   │   │       │   ├── parquet-encoding-1.10.1.jar
+│   │   │       │   ├── parquet-format-2.4.0.jar
+│   │   │       │   ├── parquet-hadoop-1.10.1.jar
+│   │   │       │   ├── parquet-hadoop-bundle-1.6.0.jar
+│   │   │       │   ├── parquet-jackson-1.10.1.jar
+│   │   │       │   ├── protobuf-java-2.5.0.jar
+│   │   │       │   ├── py4j-0.10.7.jar
+│   │   │       │   ├── pyrolite-4.13.jar
+│   │   │       │   ├── RoaringBitmap-0.7.45.jar
+│   │   │       │   ├── scala-compiler-2.11.12.jar
+│   │   │       │   ├── scala-library-2.11.12.jar
+│   │   │       │   ├── scala-parser-combinators_2.11-1.1.0.jar
+│   │   │       │   ├── scala-reflect-2.11.12.jar
+│   │   │       │   ├── scala-xml_2.11-1.0.5.jar
+│   │   │       │   ├── shapeless_2.11-2.3.2.jar
+│   │   │       │   ├── shims-0.7.45.jar
+│   │   │       │   ├── slf4j-api-1.7.16.jar
+│   │   │       │   ├── slf4j-log4j12-1.7.16.jar
+│   │   │       │   ├── snakeyaml-1.15.jar
+│   │   │       │   ├── snappy-0.2.jar
+│   │   │       │   ├── snappy-java-1.1.7.3.jar
+│   │   │       │   ├── spark-catalyst_2.11-2.4.3.jar
+│   │   │       │   ├── spark-core_2.11-2.4.3.jar
+│   │   │       │   ├── spark-graphx_2.11-2.4.3.jar
+│   │   │       │   ├── spark-hive_2.11-2.4.3.jar
+│   │   │       │   ├── spark-hive-thriftserver_2.11-2.4.3.jar
+│   │   │       │   ├── spark-kubernetes_2.11-2.4.3.jar
+│   │   │       │   ├── spark-kvstore_2.11-2.4.3.jar
+│   │   │       │   ├── spark-launcher_2.11-2.4.3.jar
+│   │   │       │   ├── spark-mesos_2.11-2.4.3.jar
+│   │   │       │   ├── spark-mllib_2.11-2.4.3.jar
+│   │   │       │   ├── spark-mllib-local_2.11-2.4.3.jar
+│   │   │       │   ├── spark-network-common_2.11-2.4.3.jar
+│   │   │       │   ├── spark-network-shuffle_2.11-2.4.3.jar
+│   │   │       │   ├── spark-repl_2.11-2.4.3.jar
+│   │   │       │   ├── spark-sketch_2.11-2.4.3.jar
+│   │   │       │   ├── spark-sql_2.11-2.4.3.jar
+│   │   │       │   ├── spark-streaming_2.11-2.4.3.jar
+│   │   │       │   ├── spark-tags_2.11-2.4.3.jar
+│   │   │       │   ├── spark-tags_2.11-2.4.3-tests.jar
+│   │   │       │   ├── spark-unsafe_2.11-2.4.3.jar
+│   │   │       │   ├── spark-yarn_2.11-2.4.3.jar
+│   │   │       │   ├── spire_2.11-0.13.0.jar
+│   │   │       │   ├── spire-macros_2.11-0.13.0.jar
+│   │   │       │   ├── ST4-4.0.4.jar
+│   │   │       │   ├── stax-api-1.0.1.jar
+│   │   │       │   ├── stax-api-1.0-2.jar
+│   │   │       │   ├── stream-2.7.0.jar
+│   │   │       │   ├── stringtemplate-3.2.1.jar
+│   │   │       │   ├── super-csv-2.2.0.jar
+│   │   │       │   ├── univocity-parsers-2.7.3.jar
+│   │   │       │   ├── validation-api-1.1.0.Final.jar
+│   │   │       │   ├── xbean-asm6-shaded-4.8.jar
+│   │   │       │   ├── xercesImpl-2.9.1.jar
+│   │   │       │   ├── xmlenc-0.52.jar
+│   │   │       │   ├── xz-1.5.jar
+│   │   │       │   ├── zjsonpatch-0.3.0.jar
+│   │   │       │   ├── zookeeper-3.4.6.jar
+│   │   │       │   └── zstd-jni-1.3.2-2.jar
+│   │   │       ├── java_gateway.py
+│   │   │       ├── join.py
+│   │   │       ├── licenses
+│   │   │       │   ├── LICENSE-AnchorJS.txt
+│   │   │       │   ├── LICENSE-bootstrap.txt
+│   │   │       │   ├── LICENSE-CC0.txt
+│   │   │       │   ├── LICENSE-cloudpickle.txt
+│   │   │       │   ├── LICENSE-d3.min.js.txt
+│   │   │       │   ├── LICENSE-dagre-d3.txt
+│   │   │       │   ├── LICENSE-datatables.txt
+│   │   │       │   ├── LICENSE-graphlib-dot.txt
+│   │   │       │   ├── LICENSE-heapq.txt
+│   │   │       │   ├── LICENSE-join.txt
+│   │   │       │   ├── LICENSE-jquery.txt
+│   │   │       │   ├── LICENSE-json-formatter.txt
+│   │   │       │   ├── LICENSE-matchMedia-polyfill.txt
+│   │   │       │   ├── LICENSE-modernizr.txt
+│   │   │       │   ├── LICENSE-mustache.txt
+│   │   │       │   ├── LICENSE-py4j.txt
+│   │   │       │   ├── LICENSE-respond.txt
+│   │   │       │   ├── LICENSE-sbt-launch-lib.txt
+│   │   │       │   ├── LICENSE-sorttable.js.txt
+│   │   │       │   └── LICENSE-vis.txt
+│   │   │       ├── ml
+│   │   │       │   ├── base.py
+│   │   │       │   ├── classification.py
+│   │   │       │   ├── clustering.py
+│   │   │       │   ├── common.py
+│   │   │       │   ├── evaluation.py
+│   │   │       │   ├── feature.py
+│   │   │       │   ├── fpm.py
+│   │   │       │   ├── image.py
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── linalg
+│   │   │       │   │   └── __init__.py
+│   │   │       │   ├── param
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── _shared_params_code_gen.py
+│   │   │       │   │   └── shared.py
+│   │   │       │   ├── pipeline.py
+│   │   │       │   ├── recommendation.py
+│   │   │       │   ├── regression.py
+│   │   │       │   ├── stat.py
+│   │   │       │   ├── tests.py
+│   │   │       │   ├── tuning.py
+│   │   │       │   ├── util.py
+│   │   │       │   └── wrapper.py
+│   │   │       ├── mllib
+│   │   │       │   ├── classification.py
+│   │   │       │   ├── clustering.py
+│   │   │       │   ├── common.py
+│   │   │       │   ├── evaluation.py
+│   │   │       │   ├── feature.py
+│   │   │       │   ├── fpm.py
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── linalg
+│   │   │       │   │   ├── distributed.py
+│   │   │       │   │   └── __init__.py
+│   │   │       │   ├── random.py
+│   │   │       │   ├── recommendation.py
+│   │   │       │   ├── regression.py
+│   │   │       │   ├── stat
+│   │   │       │   │   ├── distribution.py
+│   │   │       │   │   ├── __init__.py
+│   │   │       │   │   ├── KernelDensity.py
+│   │   │       │   │   ├── _statistics.py
+│   │   │       │   │   └── test.py
+│   │   │       │   ├── tests.py
+│   │   │       │   ├── tree.py
+│   │   │       │   └── util.py
+│   │   │       ├── profiler.py
+│   │   │       ├── python
+│   │   │       │   ├── lib
+│   │   │       │   │   ├── py4j-0.10.7-src.zip
+│   │   │       │   │   └── pyspark.zip
+│   │   │       │   └── pyspark
+│   │   │       │       └── shell.py
+│   │   │       ├── rdd.py
+│   │   │       ├── rddsampler.py
+│   │   │       ├── resultiterable.py
+│   │   │       ├── serializers.py
+│   │   │       ├── shell.py
+│   │   │       ├── shuffle.py
+│   │   │       ├── sql
+│   │   │       │   ├── catalog.py
+│   │   │       │   ├── column.py
+│   │   │       │   ├── conf.py
+│   │   │       │   ├── context.py
+│   │   │       │   ├── dataframe.py
+│   │   │       │   ├── functions.py
+│   │   │       │   ├── group.py
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── readwriter.py
+│   │   │       │   ├── session.py
+│   │   │       │   ├── streaming.py
+│   │   │       │   ├── tests.py
+│   │   │       │   ├── types.py
+│   │   │       │   ├── udf.py
+│   │   │       │   ├── utils.py
+│   │   │       │   └── window.py
+│   │   │       ├── statcounter.py
+│   │   │       ├── status.py
+│   │   │       ├── storagelevel.py
+│   │   │       ├── streaming
+│   │   │       │   ├── context.py
+│   │   │       │   ├── dstream.py
+│   │   │       │   ├── flume.py
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── kafka.py
+│   │   │       │   ├── kinesis.py
+│   │   │       │   ├── listener.py
+│   │   │       │   ├── tests.py
+│   │   │       │   └── util.py
+│   │   │       ├── taskcontext.py
+│   │   │       ├── test_broadcast.py
+│   │   │       ├── test_serializers.py
+│   │   │       ├── tests.py
+│   │   │       ├── traceback_utils.py
+│   │   │       ├── util.py
+│   │   │       ├── version.py
+│   │   │       └── worker.py
+│   │   └── scripts-3.6
+│   │       ├── beeline
+│   │       ├── beeline.cmd
+│   │       ├── docker-image-tool.sh
+│   │       ├── find-spark-home
+│   │       ├── find-spark-home.cmd
+│   │       ├── find_spark_home.py
+│   │       ├── load-spark-env.cmd
+│   │       ├── load-spark-env.sh
+│   │       ├── pyspark
+│   │       ├── pyspark2.cmd
+│   │       ├── pyspark.cmd
+│   │       ├── run-example
+│   │       ├── run-example.cmd
+│   │       ├── spark-class
+│   │       ├── spark-class2.cmd
+│   │       ├── spark-class.cmd
+│   │       ├── sparkR
+│   │       ├── sparkR2.cmd
+│   │       ├── sparkR.cmd
+│   │       ├── spark-shell
+│   │       ├── spark-shell2.cmd
+│   │       ├── spark-shell.cmd
+│   │       ├── spark-sql
+│   │       ├── spark-sql2.cmd
+│   │       ├── spark-sql.cmd
+│   │       ├── spark-submit
+│   │       ├── spark-submit2.cmd
+│   │       └── spark-submit.cmd
+│   ├── deps
+│   │   ├── bin
+│   │   │   ├── beeline
+│   │   │   ├── beeline.cmd
+│   │   │   ├── docker-image-tool.sh
+│   │   │   ├── find-spark-home
+│   │   │   ├── find-spark-home.cmd
+│   │   │   ├── load-spark-env.cmd
+│   │   │   ├── load-spark-env.sh
+│   │   │   ├── pyspark
+│   │   │   ├── pyspark2.cmd
+│   │   │   ├── pyspark.cmd
+│   │   │   ├── run-example
+│   │   │   ├── run-example.cmd
+│   │   │   ├── spark-class
+│   │   │   ├── spark-class2.cmd
+│   │   │   ├── spark-class.cmd
+│   │   │   ├── sparkR
+│   │   │   ├── sparkR2.cmd
+│   │   │   ├── sparkR.cmd
+│   │   │   ├── spark-shell
+│   │   │   ├── spark-shell2.cmd
+│   │   │   ├── spark-shell.cmd
+│   │   │   ├── spark-sql
+│   │   │   ├── spark-sql2.cmd
+│   │   │   ├── spark-sql.cmd
+│   │   │   ├── spark-submit
+│   │   │   ├── spark-submit2.cmd
+│   │   │   └── spark-submit.cmd
+│   │   ├── data
+│   │   │   ├── graphx
+│   │   │   │   ├── followers.txt
+│   │   │   │   └── users.txt
+│   │   │   ├── mllib
+│   │   │   │   ├── als
+│   │   │   │   │   ├── sample_movielens_ratings.txt
+│   │   │   │   │   └── test.data
+│   │   │   │   ├── gmm_data.txt
+│   │   │   │   ├── images
+│   │   │   │   │   ├── license.txt
+│   │   │   │   │   ├── origin
+│   │   │   │   │   │   ├── kittens
+│   │   │   │   │   │   │   └── not-image.txt
+│   │   │   │   │   │   └── license.txt
+│   │   │   │   │   └── partitioned
+│   │   │   │   │       └── cls=kittens
+│   │   │   │   │           └── date=2018-01
+│   │   │   │   │               └── not-image.txt
+│   │   │   │   ├── iris_libsvm.txt
+│   │   │   │   ├── kmeans_data.txt
+│   │   │   │   ├── pagerank_data.txt
+│   │   │   │   ├── pic_data.txt
+│   │   │   │   ├── ridge-data
+│   │   │   │   │   └── lpsa.data
+│   │   │   │   ├── sample_binary_classification_data.txt
+│   │   │   │   ├── sample_fpgrowth.txt
+│   │   │   │   ├── sample_isotonic_regression_libsvm_data.txt
+│   │   │   │   ├── sample_kmeans_data.txt
+│   │   │   │   ├── sample_lda_data.txt
+│   │   │   │   ├── sample_lda_libsvm_data.txt
+│   │   │   │   ├── sample_libsvm_data.txt
+│   │   │   │   ├── sample_linear_regression_data.txt
+│   │   │   │   ├── sample_movielens_data.txt
+│   │   │   │   ├── sample_multiclass_classification_data.txt
+│   │   │   │   ├── sample_svm_data.txt
+│   │   │   │   └── streaming_kmeans_data_test.txt
+│   │   │   └── streaming
+│   │   │       └── AFINN-111.txt
+│   │   ├── examples
+│   │   │   ├── als.py
+│   │   │   ├── avro_inputformat.py
+│   │   │   ├── kmeans.py
+│   │   │   ├── logistic_regression.py
+│   │   │   ├── ml
+│   │   │   │   ├── aft_survival_regression.py
+│   │   │   │   ├── als_example.py
+│   │   │   │   ├── binarizer_example.py
+│   │   │   │   ├── bisecting_k_means_example.py
+│   │   │   │   ├── bucketed_random_projection_lsh_example.py
+│   │   │   │   ├── bucketizer_example.py
+│   │   │   │   ├── chisq_selector_example.py
+│   │   │   │   ├── chi_square_test_example.py
+│   │   │   │   ├── correlation_example.py
+│   │   │   │   ├── count_vectorizer_example.py
+│   │   │   │   ├── cross_validator.py
+│   │   │   │   ├── dataframe_example.py
+│   │   │   │   ├── dct_example.py
+│   │   │   │   ├── decision_tree_classification_example.py
+│   │   │   │   ├── decision_tree_regression_example.py
+│   │   │   │   ├── elementwise_product_example.py
+│   │   │   │   ├── estimator_transformer_param_example.py
+│   │   │   │   ├── feature_hasher_example.py
+│   │   │   │   ├── fpgrowth_example.py
+│   │   │   │   ├── gaussian_mixture_example.py
+│   │   │   │   ├── generalized_linear_regression_example.py
+│   │   │   │   ├── gradient_boosted_tree_classifier_example.py
+│   │   │   │   ├── gradient_boosted_tree_regressor_example.py
+│   │   │   │   ├── imputer_example.py
+│   │   │   │   ├── index_to_string_example.py
+│   │   │   │   ├── isotonic_regression_example.py
+│   │   │   │   ├── kmeans_example.py
+│   │   │   │   ├── lda_example.py
+│   │   │   │   ├── linear_regression_with_elastic_net.py
+│   │   │   │   ├── linearsvc.py
+│   │   │   │   ├── logistic_regression_summary_example.py
+│   │   │   │   ├── logistic_regression_with_elastic_net.py
+│   │   │   │   ├── max_abs_scaler_example.py
+│   │   │   │   ├── min_hash_lsh_example.py
+│   │   │   │   ├── min_max_scaler_example.py
+│   │   │   │   ├── multiclass_logistic_regression_with_elastic_net.py
+│   │   │   │   ├── multilayer_perceptron_classification.py
+│   │   │   │   ├── naive_bayes_example.py
+│   │   │   │   ├── n_gram_example.py
+│   │   │   │   ├── normalizer_example.py
+│   │   │   │   ├── onehot_encoder_estimator_example.py
+│   │   │   │   ├── one_vs_rest_example.py
+│   │   │   │   ├── pca_example.py
+│   │   │   │   ├── pipeline_example.py
+│   │   │   │   ├── polynomial_expansion_example.py
+│   │   │   │   ├── prefixspan_example.py
+│   │   │   │   ├── quantile_discretizer_example.py
+│   │   │   │   ├── random_forest_classifier_example.py
+│   │   │   │   ├── random_forest_regressor_example.py
+│   │   │   │   ├── rformula_example.py
+│   │   │   │   ├── sql_transformer.py
+│   │   │   │   ├── standard_scaler_example.py
+│   │   │   │   ├── stopwords_remover_example.py
+│   │   │   │   ├── string_indexer_example.py
+│   │   │   │   ├── summarizer_example.py
+│   │   │   │   ├── tf_idf_example.py
+│   │   │   │   ├── tokenizer_example.py
+│   │   │   │   ├── train_validation_split.py
+│   │   │   │   ├── vector_assembler_example.py
+│   │   │   │   ├── vector_indexer_example.py
+│   │   │   │   ├── vector_size_hint_example.py
+│   │   │   │   ├── vector_slicer_example.py
+│   │   │   │   └── word2vec_example.py
+│   │   │   ├── mllib
+│   │   │   │   ├── binary_classification_metrics_example.py
+│   │   │   │   ├── bisecting_k_means_example.py
+│   │   │   │   ├── correlations_example.py
+│   │   │   │   ├── correlations.py
+│   │   │   │   ├── decision_tree_classification_example.py
+│   │   │   │   ├── decision_tree_regression_example.py
+│   │   │   │   ├── elementwise_product_example.py
+│   │   │   │   ├── fpgrowth_example.py
+│   │   │   │   ├── gaussian_mixture_example.py
+│   │   │   │   ├── gaussian_mixture_model.py
+│   │   │   │   ├── gradient_boosting_classification_example.py
+│   │   │   │   ├── gradient_boosting_regression_example.py
+│   │   │   │   ├── hypothesis_testing_example.py
+│   │   │   │   ├── hypothesis_testing_kolmogorov_smirnov_test_example.py
+│   │   │   │   ├── isotonic_regression_example.py
+│   │   │   │   ├── kernel_density_estimation_example.py
+│   │   │   │   ├── k_means_example.py
+│   │   │   │   ├── kmeans.py
+│   │   │   │   ├── latent_dirichlet_allocation_example.py
+│   │   │   │   ├── linear_regression_with_sgd_example.py
+│   │   │   │   ├── logistic_regression.py
+│   │   │   │   ├── logistic_regression_with_lbfgs_example.py
+│   │   │   │   ├── multi_class_metrics_example.py
+│   │   │   │   ├── multi_label_metrics_example.py
+│   │   │   │   ├── naive_bayes_example.py
+│   │   │   │   ├── normalizer_example.py
+│   │   │   │   ├── pca_rowmatrix_example.py
+│   │   │   │   ├── power_iteration_clustering_example.py
+│   │   │   │   ├── random_forest_classification_example.py
+│   │   │   │   ├── random_forest_regression_example.py
+│   │   │   │   ├── random_rdd_generation.py
+│   │   │   │   ├── ranking_metrics_example.py
+│   │   │   │   ├── recommendation_example.py
+│   │   │   │   ├── regression_metrics_example.py
+│   │   │   │   ├── sampled_rdds.py
+│   │   │   │   ├── standard_scaler_example.py
+│   │   │   │   ├── stratified_sampling_example.py
+│   │   │   │   ├── streaming_k_means_example.py
+│   │   │   │   ├── streaming_linear_regression_example.py
+│   │   │   │   ├── summary_statistics_example.py
+│   │   │   │   ├── svd_example.py
+│   │   │   │   ├── svm_with_sgd_example.py
+│   │   │   │   ├── tf_idf_example.py
+│   │   │   │   ├── word2vec_example.py
+│   │   │   │   └── word2vec.py
+│   │   │   ├── pagerank.py
+│   │   │   ├── parquet_inputformat.py
+│   │   │   ├── pi.py
+│   │   │   ├── sort.py
+│   │   │   ├── sql
+│   │   │   │   ├── arrow.py
+│   │   │   │   ├── basic.py
+│   │   │   │   ├── datasource.py
+│   │   │   │   ├── hive.py
+│   │   │   │   └── streaming
+│   │   │   │       ├── structured_kafka_wordcount.py
+│   │   │   │       ├── structured_network_wordcount.py
+│   │   │   │       └── structured_network_wordcount_windowed.py
+│   │   │   ├── status_api_demo.py
+│   │   │   ├── streaming
+│   │   │   │   ├── direct_kafka_wordcount.py
+│   │   │   │   ├── flume_wordcount.py
+│   │   │   │   ├── hdfs_wordcount.py
+│   │   │   │   ├── kafka_wordcount.py
+│   │   │   │   ├── network_wordcount.py
+│   │   │   │   ├── network_wordjoinsentiments.py
+│   │   │   │   ├── queue_stream.py
+│   │   │   │   ├── recoverable_network_wordcount.py
+│   │   │   │   ├── sql_network_wordcount.py
+│   │   │   │   └── stateful_network_wordcount.py
+│   │   │   ├── transitive_closure.py
+│   │   │   └── wordcount.py
+│   │   ├── jars
+│   │   │   ├── activation-1.1.1.jar
+│   │   │   ├── aircompressor-0.10.jar
+│   │   │   ├── antlr-2.7.7.jar
+│   │   │   ├── antlr4-runtime-4.7.jar
+│   │   │   ├── antlr-runtime-3.4.jar
+│   │   │   ├── aopalliance-1.0.jar
+│   │   │   ├── aopalliance-repackaged-2.4.0-b34.jar
+│   │   │   ├── apacheds-i18n-2.0.0-M15.jar
+│   │   │   ├── apacheds-kerberos-codec-2.0.0-M15.jar
+│   │   │   ├── apache-log4j-extras-1.2.17.jar
+│   │   │   ├── api-asn1-api-1.0.0-M20.jar
+│   │   │   ├── api-util-1.0.0-M20.jar
+│   │   │   ├── arpack_combined_all-0.1.jar
+│   │   │   ├── arrow-format-0.10.0.jar
+│   │   │   ├── arrow-memory-0.10.0.jar
+│   │   │   ├── arrow-vector-0.10.0.jar
+│   │   │   ├── automaton-1.11-8.jar
+│   │   │   ├── avro-1.8.2.jar
+│   │   │   ├── avro-ipc-1.8.2.jar
+│   │   │   ├── avro-mapred-1.8.2-hadoop2.jar
+│   │   │   ├── bonecp-0.8.0.RELEASE.jar
+│   │   │   ├── breeze_2.11-0.13.2.jar
+│   │   │   ├── breeze-macros_2.11-0.13.2.jar
+│   │   │   ├── calcite-avatica-1.2.0-incubating.jar
+│   │   │   ├── calcite-core-1.2.0-incubating.jar
+│   │   │   ├── calcite-linq4j-1.2.0-incubating.jar
+│   │   │   ├── chill_2.11-0.9.3.jar
+│   │   │   ├── chill-java-0.9.3.jar
+│   │   │   ├── commons-beanutils-1.9.3.jar
+│   │   │   ├── commons-cli-1.2.jar
+│   │   │   ├── commons-codec-1.10.jar
+│   │   │   ├── commons-collections-3.2.2.jar
+│   │   │   ├── commons-compiler-3.0.9.jar
+│   │   │   ├── commons-compress-1.8.1.jar
+│   │   │   ├── commons-configuration-1.6.jar
+│   │   │   ├── commons-crypto-1.0.0.jar
+│   │   │   ├── commons-dbcp-1.4.jar
+│   │   │   ├── commons-digester-1.8.jar
+│   │   │   ├── commons-httpclient-3.1.jar
+│   │   │   ├── commons-io-2.4.jar
+│   │   │   ├── commons-lang-2.6.jar
+│   │   │   ├── commons-lang3-3.5.jar
+│   │   │   ├── commons-logging-1.1.3.jar
+│   │   │   ├── commons-math3-3.4.1.jar
+│   │   │   ├── commons-net-3.1.jar
+│   │   │   ├── commons-pool-1.5.4.jar
+│   │   │   ├── compress-lzf-1.0.3.jar
+│   │   │   ├── core-1.1.2.jar
+│   │   │   ├── curator-client-2.7.1.jar
+│   │   │   ├── curator-framework-2.7.1.jar
+│   │   │   ├── curator-recipes-2.7.1.jar
+│   │   │   ├── datanucleus-api-jdo-3.2.6.jar
+│   │   │   ├── datanucleus-core-3.2.10.jar
+│   │   │   ├── datanucleus-rdbms-3.2.9.jar
+│   │   │   ├── derby-10.12.1.1.jar
+│   │   │   ├── eigenbase-properties-1.1.5.jar
+│   │   │   ├── flatbuffers-1.2.0-3f79e055.jar
+│   │   │   ├── generex-1.0.1.jar
+│   │   │   ├── gson-2.2.4.jar
+│   │   │   ├── guava-14.0.1.jar
+│   │   │   ├── guice-3.0.jar
+│   │   │   ├── guice-servlet-3.0.jar
+│   │   │   ├── hadoop-annotations-2.7.3.jar
+│   │   │   ├── hadoop-auth-2.7.3.jar
+│   │   │   ├── hadoop-client-2.7.3.jar
+│   │   │   ├── hadoop-common-2.7.3.jar
+│   │   │   ├── hadoop-hdfs-2.7.3.jar
+│   │   │   ├── hadoop-mapreduce-client-app-2.7.3.jar
+│   │   │   ├── hadoop-mapreduce-client-common-2.7.3.jar
+│   │   │   ├── hadoop-mapreduce-client-core-2.7.3.jar
+│   │   │   ├── hadoop-mapreduce-client-jobclient-2.7.3.jar
+│   │   │   ├── hadoop-mapreduce-client-shuffle-2.7.3.jar
+│   │   │   ├── hadoop-yarn-api-2.7.3.jar
+│   │   │   ├── hadoop-yarn-client-2.7.3.jar
+│   │   │   ├── hadoop-yarn-common-2.7.3.jar
+│   │   │   ├── hadoop-yarn-server-common-2.7.3.jar
+│   │   │   ├── hadoop-yarn-server-web-proxy-2.7.3.jar
+│   │   │   ├── hive-beeline-1.2.1.spark2.jar
+│   │   │   ├── hive-cli-1.2.1.spark2.jar
+│   │   │   ├── hive-exec-1.2.1.spark2.jar
+│   │   │   ├── hive-jdbc-1.2.1.spark2.jar
+│   │   │   ├── hive-metastore-1.2.1.spark2.jar
+│   │   │   ├── hk2-api-2.4.0-b34.jar
+│   │   │   ├── hk2-locator-2.4.0-b34.jar
+│   │   │   ├── hk2-utils-2.4.0-b34.jar
+│   │   │   ├── hppc-0.7.2.jar
+│   │   │   ├── htrace-core-3.1.0-incubating.jar
+│   │   │   ├── httpclient-4.5.6.jar
+│   │   │   ├── httpcore-4.4.10.jar
+│   │   │   ├── ivy-2.4.0.jar
+│   │   │   ├── jackson-annotations-2.6.7.jar
+│   │   │   ├── jackson-core-2.6.7.jar
+│   │   │   ├── jackson-core-asl-1.9.13.jar
+│   │   │   ├── jackson-databind-2.6.7.1.jar
+│   │   │   ├── jackson-dataformat-yaml-2.6.7.jar
+│   │   │   ├── jackson-jaxrs-1.9.13.jar
+│   │   │   ├── jackson-mapper-asl-1.9.13.jar
+│   │   │   ├── jackson-module-jaxb-annotations-2.6.7.jar
+│   │   │   ├── jackson-module-paranamer-2.7.9.jar
+│   │   │   ├── jackson-module-scala_2.11-2.6.7.1.jar
+│   │   │   ├── jackson-xc-1.9.13.jar
+│   │   │   ├── janino-3.0.9.jar
+│   │   │   ├── JavaEWAH-0.3.2.jar
+│   │   │   ├── javassist-3.18.1-GA.jar
+│   │   │   ├── javax.annotation-api-1.2.jar
+│   │   │   ├── javax.inject-1.jar
+│   │   │   ├── javax.inject-2.4.0-b34.jar
+│   │   │   ├── javax.servlet-api-3.1.0.jar
+│   │   │   ├── javax.ws.rs-api-2.0.1.jar
+│   │   │   ├── javolution-5.5.1.jar
+│   │   │   ├── jaxb-api-2.2.2.jar
+│   │   │   ├── jcl-over-slf4j-1.7.16.jar
+│   │   │   ├── jdo-api-3.0.1.jar
+│   │   │   ├── jersey-client-2.22.2.jar
+│   │   │   ├── jersey-common-2.22.2.jar
+│   │   │   ├── jersey-container-servlet-2.22.2.jar
+│   │   │   ├── jersey-container-servlet-core-2.22.2.jar
+│   │   │   ├── jersey-guava-2.22.2.jar
+│   │   │   ├── jersey-media-jaxb-2.22.2.jar
+│   │   │   ├── jersey-server-2.22.2.jar
+│   │   │   ├── jetty-6.1.26.jar
+│   │   │   ├── jetty-util-6.1.26.jar
+│   │   │   ├── jline-2.14.6.jar
+│   │   │   ├── joda-time-2.9.3.jar
+│   │   │   ├── jodd-core-3.5.2.jar
+│   │   │   ├── jpam-1.1.jar
+│   │   │   ├── json4s-ast_2.11-3.5.3.jar
+│   │   │   ├── json4s-core_2.11-3.5.3.jar
+│   │   │   ├── json4s-jackson_2.11-3.5.3.jar
+│   │   │   ├── json4s-scalap_2.11-3.5.3.jar
+│   │   │   ├── jsp-api-2.1.jar
+│   │   │   ├── jsr305-1.3.9.jar
+│   │   │   ├── jta-1.1.jar
+│   │   │   ├── jtransforms-2.4.0.jar
+│   │   │   ├── jul-to-slf4j-1.7.16.jar
+│   │   │   ├── kryo-shaded-4.0.2.jar
+│   │   │   ├── kubernetes-client-4.1.2.jar
+│   │   │   ├── kubernetes-model-4.1.2.jar
+│   │   │   ├── kubernetes-model-common-4.1.2.jar
+│   │   │   ├── leveldbjni-all-1.8.jar
+│   │   │   ├── libfb303-0.9.3.jar
+│   │   │   ├── libthrift-0.9.3.jar
+│   │   │   ├── log4j-1.2.17.jar
+│   │   │   ├── logging-interceptor-3.12.0.jar
+│   │   │   ├── lz4-java-1.4.0.jar
+│   │   │   ├── machinist_2.11-0.6.1.jar
+│   │   │   ├── macro-compat_2.11-1.1.1.jar
+│   │   │   ├── mesos-1.4.0-shaded-protobuf.jar
+│   │   │   ├── metrics-core-3.1.5.jar
+│   │   │   ├── metrics-graphite-3.1.5.jar
+│   │   │   ├── metrics-json-3.1.5.jar
+│   │   │   ├── metrics-jvm-3.1.5.jar
+│   │   │   ├── minlog-1.3.0.jar
+│   │   │   ├── netty-3.9.9.Final.jar
+│   │   │   ├── netty-all-4.1.17.Final.jar
+│   │   │   ├── objenesis-2.5.1.jar
+│   │   │   ├── okhttp-3.8.1.jar
+│   │   │   ├── okio-1.13.0.jar
+│   │   │   ├── opencsv-2.3.jar
+│   │   │   ├── orc-core-1.5.5-nohive.jar
+│   │   │   ├── orc-mapreduce-1.5.5-nohive.jar
+│   │   │   ├── orc-shims-1.5.5.jar
+│   │   │   ├── oro-2.0.8.jar
+│   │   │   ├── osgi-resource-locator-1.0.1.jar
+│   │   │   ├── paranamer-2.8.jar
+│   │   │   ├── parquet-column-1.10.1.jar
+│   │   │   ├── parquet-common-1.10.1.jar
+│   │   │   ├── parquet-encoding-1.10.1.jar
+│   │   │   ├── parquet-format-2.4.0.jar
+│   │   │   ├── parquet-hadoop-1.10.1.jar
+│   │   │   ├── parquet-hadoop-bundle-1.6.0.jar
+│   │   │   ├── parquet-jackson-1.10.1.jar
+│   │   │   ├── protobuf-java-2.5.0.jar
+│   │   │   ├── py4j-0.10.7.jar
+│   │   │   ├── pyrolite-4.13.jar
+│   │   │   ├── RoaringBitmap-0.7.45.jar
+│   │   │   ├── scala-compiler-2.11.12.jar
+│   │   │   ├── scala-library-2.11.12.jar
+│   │   │   ├── scala-parser-combinators_2.11-1.1.0.jar
+│   │   │   ├── scala-reflect-2.11.12.jar
+│   │   │   ├── scala-xml_2.11-1.0.5.jar
+│   │   │   ├── shapeless_2.11-2.3.2.jar
+│   │   │   ├── shims-0.7.45.jar
+│   │   │   ├── slf4j-api-1.7.16.jar
+│   │   │   ├── slf4j-log4j12-1.7.16.jar
+│   │   │   ├── snakeyaml-1.15.jar
+│   │   │   ├── snappy-0.2.jar
+│   │   │   ├── snappy-java-1.1.7.3.jar
+│   │   │   ├── spark-catalyst_2.11-2.4.3.jar
+│   │   │   ├── spark-core_2.11-2.4.3.jar
+│   │   │   ├── spark-graphx_2.11-2.4.3.jar
+│   │   │   ├── spark-hive_2.11-2.4.3.jar
+│   │   │   ├── spark-hive-thriftserver_2.11-2.4.3.jar
+│   │   │   ├── spark-kubernetes_2.11-2.4.3.jar
+│   │   │   ├── spark-kvstore_2.11-2.4.3.jar
+│   │   │   ├── spark-launcher_2.11-2.4.3.jar
+│   │   │   ├── spark-mesos_2.11-2.4.3.jar
+│   │   │   ├── spark-mllib_2.11-2.4.3.jar
+│   │   │   ├── spark-mllib-local_2.11-2.4.3.jar
+│   │   │   ├── spark-network-common_2.11-2.4.3.jar
+│   │   │   ├── spark-network-shuffle_2.11-2.4.3.jar
+│   │   │   ├── spark-repl_2.11-2.4.3.jar
+│   │   │   ├── spark-sketch_2.11-2.4.3.jar
+│   │   │   ├── spark-sql_2.11-2.4.3.jar
+│   │   │   ├── spark-streaming_2.11-2.4.3.jar
+│   │   │   ├── spark-tags_2.11-2.4.3.jar
+│   │   │   ├── spark-tags_2.11-2.4.3-tests.jar
+│   │   │   ├── spark-unsafe_2.11-2.4.3.jar
+│   │   │   ├── spark-yarn_2.11-2.4.3.jar
+│   │   │   ├── spire_2.11-0.13.0.jar
+│   │   │   ├── spire-macros_2.11-0.13.0.jar
+│   │   │   ├── ST4-4.0.4.jar
+│   │   │   ├── stax-api-1.0.1.jar
+│   │   │   ├── stax-api-1.0-2.jar
+│   │   │   ├── stream-2.7.0.jar
+│   │   │   ├── stringtemplate-3.2.1.jar
+│   │   │   ├── super-csv-2.2.0.jar
+│   │   │   ├── univocity-parsers-2.7.3.jar
+│   │   │   ├── validation-api-1.1.0.Final.jar
+│   │   │   ├── xbean-asm6-shaded-4.8.jar
+│   │   │   ├── xercesImpl-2.9.1.jar
+│   │   │   ├── xmlenc-0.52.jar
+│   │   │   ├── xz-1.5.jar
+│   │   │   ├── zjsonpatch-0.3.0.jar
+│   │   │   ├── zookeeper-3.4.6.jar
+│   │   │   └── zstd-jni-1.3.2-2.jar
+│   │   └── licenses
+│   │       ├── LICENSE-AnchorJS.txt
+│   │       ├── LICENSE-bootstrap.txt
+│   │       ├── LICENSE-CC0.txt
+│   │       ├── LICENSE-cloudpickle.txt
+│   │       ├── LICENSE-d3.min.js.txt
+│   │       ├── LICENSE-dagre-d3.txt
+│   │       ├── LICENSE-datatables.txt
+│   │       ├── LICENSE-graphlib-dot.txt
+│   │       ├── LICENSE-heapq.txt
+│   │       ├── LICENSE-join.txt
+│   │       ├── LICENSE-jquery.txt
+│   │       ├── LICENSE-json-formatter.txt
+│   │       ├── LICENSE-matchMedia-polyfill.txt
+│   │       ├── LICENSE-modernizr.txt
+│   │       ├── LICENSE-mustache.txt
+│   │       ├── LICENSE-py4j.txt
+│   │       ├── LICENSE-respond.txt
+│   │       ├── LICENSE-sbt-launch-lib.txt
+│   │       ├── LICENSE-sorttable.js.txt
+│   │       └── LICENSE-vis.txt
+│   ├── dist
+│   │   └── pyspark-2.4.3-py3.6.egg
+│   ├── lib
+│   │   ├── py4j-0.10.7-src.zip
+│   │   └── pyspark.zip
+│   ├── MANIFEST.in
+│   ├── \033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OB\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OA\033OAa
+│   ├── PKG-INFO
+│   ├── pyspark
+│   │   ├── accumulators.py
+│   │   ├── broadcast.py
+│   │   ├── cloudpickle.py
+│   │   ├── conf.py
+│   │   ├── context.py
+│   │   ├── daemon.py
+│   │   ├── files.py
+│   │   ├── find_spark_home.py
+│   │   ├── _globals.py
+│   │   ├── heapq3.py
+│   │   ├── __init__.py
+│   │   ├── java_gateway.py
+│   │   ├── join.py
+│   │   ├── ml
+│   │   │   ├── base.py
+│   │   │   ├── classification.py
+│   │   │   ├── clustering.py
+│   │   │   ├── common.py
+│   │   │   ├── evaluation.py
+│   │   │   ├── feature.py
+│   │   │   ├── fpm.py
+│   │   │   ├── image.py
+│   │   │   ├── __init__.py
+│   │   │   ├── linalg
+│   │   │   │   └── __init__.py
+│   │   │   ├── param
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── _shared_params_code_gen.py
+│   │   │   │   └── shared.py
+│   │   │   ├── pipeline.py
+│   │   │   ├── recommendation.py
+│   │   │   ├── regression.py
+│   │   │   ├── stat.py
+│   │   │   ├── tests.py
+│   │   │   ├── tuning.py
+│   │   │   ├── util.py
+│   │   │   └── wrapper.py
+│   │   ├── mllib
+│   │   │   ├── classification.py
+│   │   │   ├── clustering.py
+│   │   │   ├── common.py
+│   │   │   ├── evaluation.py
+│   │   │   ├── feature.py
+│   │   │   ├── fpm.py
+│   │   │   ├── __init__.py
+│   │   │   ├── linalg
+│   │   │   │   ├── distributed.py
+│   │   │   │   └── __init__.py
+│   │   │   ├── random.py
+│   │   │   ├── recommendation.py
+│   │   │   ├── regression.py
+│   │   │   ├── stat
+│   │   │   │   ├── distribution.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── KernelDensity.py
+│   │   │   │   ├── _statistics.py
+│   │   │   │   └── test.py
+│   │   │   ├── tests.py
+│   │   │   ├── tree.py
+│   │   │   └── util.py
+│   │   ├── profiler.py
+│   │   ├── __pycache__
+│   │   │   ├── accumulators.cpython-36.pyc
+│   │   │   ├── broadcast.cpython-36.pyc
+│   │   │   ├── cloudpickle.cpython-36.pyc
+│   │   │   ├── conf.cpython-36.pyc
+│   │   │   ├── context.cpython-36.pyc
+│   │   │   ├── files.cpython-36.pyc
+│   │   │   ├── find_spark_home.cpython-36.pyc
+│   │   │   ├── _globals.cpython-36.pyc
+│   │   │   ├── heapq3.cpython-36.pyc
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   ├── java_gateway.cpython-36.pyc
+│   │   │   ├── join.cpython-36.pyc
+│   │   │   ├── profiler.cpython-36.pyc
+│   │   │   ├── rdd.cpython-36.pyc
+│   │   │   ├── rddsampler.cpython-36.pyc
+│   │   │   ├── resultiterable.cpython-36.pyc
+│   │   │   ├── serializers.cpython-36.pyc
+│   │   │   ├── shuffle.cpython-36.pyc
+│   │   │   ├── statcounter.cpython-36.pyc
+│   │   │   ├── status.cpython-36.pyc
+│   │   │   ├── storagelevel.cpython-36.pyc
+│   │   │   ├── taskcontext.cpython-36.pyc
+│   │   │   ├── traceback_utils.cpython-36.pyc
+│   │   │   ├── util.cpython-36.pyc
+│   │   │   └── version.cpython-36.pyc
+│   │   ├── python
+│   │   │   └── pyspark
+│   │   │       └── shell.py
+│   │   ├── rdd.py
+│   │   ├── rddsampler.py
+│   │   ├── resultiterable.py
+│   │   ├── serializers.py
+│   │   ├── shell.py
+│   │   ├── shuffle.py
+│   │   ├── sql
+│   │   │   ├── catalog.py
+│   │   │   ├── column.py
+│   │   │   ├── conf.py
+│   │   │   ├── context.py
+│   │   │   ├── dataframe.py
+│   │   │   ├── functions.py
+│   │   │   ├── group.py
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── catalog.cpython-36.pyc
+│   │   │   │   ├── column.cpython-36.pyc
+│   │   │   │   ├── conf.cpython-36.pyc
+│   │   │   │   ├── context.cpython-36.pyc
+│   │   │   │   ├── dataframe.cpython-36.pyc
+│   │   │   │   ├── group.cpython-36.pyc
+│   │   │   │   ├── __init__.cpython-36.pyc
+│   │   │   │   ├── readwriter.cpython-36.pyc
+│   │   │   │   ├── session.cpython-36.pyc
+│   │   │   │   ├── streaming.cpython-36.pyc
+│   │   │   │   ├── types.cpython-36.pyc
+│   │   │   │   ├── udf.cpython-36.pyc
+│   │   │   │   ├── utils.cpython-36.pyc
+│   │   │   │   └── window.cpython-36.pyc
+│   │   │   ├── readwriter.py
+│   │   │   ├── session.py
+│   │   │   ├── streaming.py
+│   │   │   ├── tests.py
+│   │   │   ├── types.py
+│   │   │   ├── udf.py
+│   │   │   ├── utils.py
+│   │   │   └── window.py
+│   │   ├── statcounter.py
+│   │   ├── status.py
+│   │   ├── storagelevel.py
+│   │   ├── streaming
+│   │   │   ├── context.py
+│   │   │   ├── dstream.py
+│   │   │   ├── flume.py
+│   │   │   ├── __init__.py
+│   │   │   ├── kafka.py
+│   │   │   ├── kinesis.py
+│   │   │   ├── listener.py
+│   │   │   ├── tests.py
+│   │   │   └── util.py
+│   │   ├── taskcontext.py
+│   │   ├── test_broadcast.py
+│   │   ├── test_serializers.py
+│   │   ├── tests.py
+│   │   ├── traceback_utils.py
+│   │   ├── util.py
+│   │   ├── version.py
+│   │   └── worker.py
+│   ├── pyspark.egg-info
+│   │   ├── dependency_links.txt
+│   │   ├── PKG-INFO
+│   │   ├── requires.txt
+│   │   ├── SOURCES.txt
+│   │   └── top_level.txt
+│   ├── README.md
+│   ├── setup.cfg
+│   └── setup.py
+├── test.py
+├── tree.txt
+├── WordCount.ipynb
+├── word.txt
+└── writeback
+    ├── part-00000
+    └── _SUCCESS
+- [error opening dir]
+
+80 directories, 1161 files
