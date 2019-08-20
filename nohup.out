@@ -1,0 +1,29 @@
+[I 21:39:29.149 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:39:31.887 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:39:32.025 NotebookApp] JupyterLab beta preview extension loaded from /root/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 21:39:32.025 NotebookApp] JupyterLab application directory is /root/anaconda3/share/jupyter/lab
+[C 21:39:32.046 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+[W 21:43:56.780 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:43:56.877 NotebookApp] JupyterLab beta preview extension loaded from /root/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 21:43:56.877 NotebookApp] JupyterLab application directory is /root/anaconda3/share/jupyter/lab
+[I 21:43:56.899 NotebookApp] Serving notebooks from local directory: /jola
+[I 21:43:56.899 NotebookApp] 0 active kernels
+[I 21:43:56.899 NotebookApp] The Jupyter Notebook is running at:
+[I 21:43:56.899 NotebookApp] http://VM-0-16-ubuntu:8888/
+[I 21:43:56.899 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:44:00.473 NotebookApp] 302 GET / (101.233.84.132) 0.57ms
+[W 21:44:00.557 NotebookApp] Clearing invalid/expired login cookie username-132-232-121-96-8888
+[W 21:44:00.558 NotebookApp] Clearing invalid/expired login cookie username-132-232-121-96-8888
+[I 21:44:00.559 NotebookApp] 302 GET /tree? (101.233.84.132) 2.27ms
+[W 21:44:02.971 NotebookApp] 401 POST /login?next=%2Ftree%3F (101.233.84.132) 1.59ms referer=http://132.232.121.96:8888/login?next=%2Ftree%3F
+[W 21:44:11.320 NotebookApp] 401 POST /login?next=%2Ftree%3F (101.233.84.132) 1.47ms referer=http://132.232.121.96:8888/login?next=%2Ftree%3F
+[W 21:44:13.605 NotebookApp] 401 POST /login?next=%2Ftree%3F (101.233.84.132) 2.20ms referer=http://132.232.121.96:8888/login?next=%2Ftree%3F
+[I 21:44:18.405 NotebookApp] 302 POST /login?next=%2Ftree%3F (101.233.84.132) 1.43ms
+[I 21:44:25.974 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 01:50:09.065 NotebookApp] 404 GET http://www.qq.com/404/search_children.js (120.132.3.65) 43.36ms referer=None
+[I 06:17:31.814 NotebookApp] 302 GET / (139.162.83.10) 0.50ms
