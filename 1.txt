@@ -1,0 +1,1033 @@
+    1  2020-03-06 10:58:48  
+    2  2019-08-20 11:47:33 passwd
+    3  2019-08-20 11:47:51 python -V
+    4  2019-08-20 11:47:54 python3 -V
+    5  2019-08-20 11:47:57 pip -V
+    6  2019-08-20 11:48:02 pip3 -V
+    7  2019-08-20 11:48:04 pip2 -V
+    8  2019-08-20 11:48:09 apt install python-pip
+    9  2019-08-20 11:49:03 vi /etc/ssh/ssh_config 
+   10  2019-08-20 11:49:12 vi /etc/ssh/ssh_config 
+   11  2019-08-20 11:50:09 sudo service ssh restart
+   12  2019-08-20 11:50:27 conda -V
+   13  2019-08-20 11:59:43 passwd root
+   14  2019-08-20 12:01:11 sudo passwd
+   15  2019-08-20 12:03:09 sudo service ssh restart
+   16  2019-08-20 12:01:23 su root
+   17  2019-08-20 12:04:55 vi /etc/ssh/sshd_config 
+   18  2019-08-20 12:05:33 vi /etc/ssh/ssh_config 
+   19  2019-08-20 12:06:03 vi /etc/ssh/sshd_config 
+   20  2019-08-20 12:06:21 vi /etc/ssh/sshd_config 
+   21  2019-08-20 12:07:24 sudo service ssh restart
+   22  2019-08-20 12:07:58 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
+   23  2019-08-20 12:08:07 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150
+   24  2019-08-20 12:08:10 python -V
+   25  2019-08-20 12:08:12 python2 -V
+   26  2019-08-20 12:08:14 pip -V
+   27  2019-08-20 12:08:25 apt uninstall pip
+   28  2019-08-20 12:08:28 apt remove
+   29  2019-08-20 12:08:33 apt remove pip
+   30  2019-08-20 12:08:39 apt remove python-pip
+   31  2019-08-20 12:08:49 pip -V
+   32  2019-08-20 12:08:56 pip2 -V
+   33  2019-08-20 12:09:02 apt install python-pip
+   34  2019-08-20 12:09:07 pip -V
+   35  2019-08-20 12:09:09 pip2 -V
+   36  2019-08-20 12:09:13 pip3 -V
+   37  2019-08-20 12:09:18 apt install python3-pip
+   38  2019-08-20 12:10:18 sudo apt update
+   39  2019-08-20 12:10:28 sudo apt-get update
+   40  2019-08-20 12:10:32 sudo apt-get upgrade
+   41  2019-08-20 12:23:27 sudo apt-get remove python-pip
+   42  2019-08-20 12:23:32 PIP -v
+   43  2019-08-20 12:23:35 pip -V
+   44  2019-08-20 12:23:43 sudo apt-get install pii
+   45  2019-08-20 12:23:45 sudo apt-get install pip
+   46  2019-08-20 12:23:48 sudo apt-get install python-pip
+   47  2019-08-20 12:24:01 pip -V
+   48  2019-08-20 12:24:07 pip2 -V
+   49  2019-08-20 12:24:16 sudo apt-get remove python-pip2
+   50  2019-08-20 12:24:19 sudo apt-get remove python2-pip
+   51  2019-08-20 12:24:29 sudo apt-get install python2-pip
+   52  2019-08-20 12:24:35 pip2 -V
+   53  2019-08-20 12:24:47 pip -V
+   54  2019-08-20 12:24:50 pip3 -V
+   55  2019-08-20 12:24:52 pip2 -V
+   56  2019-08-20 12:25:07 sudo apt-get install python-pip
+   57  2019-08-20 12:25:10 pip -V
+   58  2019-08-20 12:25:12 pip2 -V
+   59  2019-08-20 12:25:45 whereis pip
+   60  2019-08-20 12:28:23 pip2 -V
+   61  2019-08-20 12:28:41 ls
+   62  2019-08-20 12:28:43 wget https://bootstrap.pypa.io/get-pip.py
+   63  2019-08-20 12:29:27 sudo python2 get-pip.py 
+   64  2019-08-20 12:29:33 pip2 -V
+   65  2019-08-20 12:29:43 pip -V
+   66  2019-08-20 12:29:47 pip3 -V
+   67  2019-08-20 12:30:24 pip3 install --upgrade pip
+   68  2019-08-20 12:30:31 pip2 install --upgrade pip
+   69  2019-08-20 12:30:46 pip2 -V
+   70  2019-08-20 12:30:49 pip -V
+   71  2019-08-20 12:30:55 pip2 -V
+   72  2019-08-20 12:33:57 cd /
+   73  2019-08-20 12:33:57 ls
+   74  2019-08-20 12:34:00 cd ..
+   75  2019-08-20 12:34:01 cd ~
+   76  2019-08-20 12:34:01 ls
+   77  2019-08-20 12:34:04 rm get-pip.py 
+   78  2019-08-20 12:34:06 cd /
+   79  2019-08-20 12:34:07 ls
+   80  2019-08-20 12:34:15 mkdir Anaconda
+   81  2019-08-20 12:34:19 cd Anaconda/
+   82  2019-08-20 12:34:22 wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+   83  2019-08-20 12:35:59 wget p.py 
+   84  2019-08-20 12:36:14 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2019.07-Linux-x86_64.sh
+   85  2019-08-20 12:38:16 cd ~/.ssh/
+   86  2019-08-20 12:38:17 ls
+   87  2019-08-20 12:38:29 ssh-keygen -t rsa -C "515659704@qq.com"
+   88  2019-08-20 12:38:33 ls
+   89  2019-08-20 12:38:38 cat id_rsa
+   90  2019-08-20 12:38:40 cat id_rsa.pub 
+   91  2019-08-20 12:42:36 cat id_rsa.pub | xsel
+   92  2019-08-20 12:42:50 sudo apt-get install xsel
+   93  2019-08-20 12:43:45 cat id_rsa.pub | xsel
+   94  2019-08-20 12:43:59 cat id_rsa.pub|xsel
+   95  2019-08-20 12:45:47 sudo apt-get remove xsel
+   96  2019-08-20 12:52:00 cd ~
+   97  2019-08-20 12:52:00 ls
+   98  2019-08-20 12:52:02 ls
+   99  2019-08-20 12:52:06 cd /Anaconda/
+  100  2019-08-20 12:52:13 bash Anaconda3-2019.07-Linux-x86_64.sh
+  101  2019-08-20 12:53:32 bash Anaconda3-2019.07-Linux-x86_64.sh
+  102  2019-08-20 12:53:40 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2019.07-Linux-x86_64.sh
+  103  2019-08-20 12:55:08 ls
+  104  2019-08-20 12:55:12 rm Anaconda3-2019.07-Linux-x86_64.sh
+  105  2019-08-20 12:55:16 bash Anaconda3-2019.07-Linux-x86_64.sh.2
+  106  2019-08-20 12:56:20 bash Anaconda3-2019.07-Linux-x86_64.sh.2
+  107  2019-08-20 12:59:10 ls
+  108  2019-08-20 12:59:14 ?
+  109  2019-08-20 12:59:18 cd ?
+  110  2019-08-20 12:59:19 ls
+  111  2019-08-20 12:59:20 cd ..
+  112  2019-08-20 12:59:21 ls
+  113  2019-08-20 12:59:33 mv ? anaconda3
+  114  2019-08-20 12:59:34 ls
+  115  2019-08-20 12:59:38 rm Anaconda3-2019.07-Linux-x86_64.sh.1
+  116  2019-08-20 12:59:39 ls
+  117  2019-08-20 12:59:41 conda -V
+  118  2019-08-20 13:00:14 sudo gedit ~/.bashrc 
+  119  2019-08-20 13:00:19 gedit
+  120  2019-08-20 13:00:25 sudo apt-get install gedit
+  121  2019-08-20 13:02:33 sudo gedit ~/.bashrc 
+  122  2019-08-20 13:02:40 vi ~/.bashrc
+  123  2019-08-20 13:03:26 conda -V
+  124  2019-08-20 13:03:39 conda -V
+  125  2019-08-20 13:03:40 conda -V
+  126  2019-08-20 13:03:41 vi ~/.bashrc
+  127  2019-08-20 13:04:22 conda -V
+  128  2019-08-20 13:04:28 source ~/.bashrc 
+  129  2019-08-20 13:04:30 conda -V
+  130  2019-08-20 13:04:49 ls
+  131  2019-08-20 13:05:45 whereis conda
+  132  2019-08-20 13:05:51 cd anaconda3/
+  133  2019-08-20 13:05:51 ls
+  134  2019-08-20 13:05:52 cd bin/
+  135  2019-08-20 13:05:54 conda -V
+  136  2019-08-20 13:05:56 ls
+  137  2019-08-20 13:06:03 conda
+  138  2019-08-20 13:06:08 ./conda
+  139  2019-08-20 13:06:12 conda
+  140  2019-08-20 13:06:55 vi /etc/bash.bashrc 
+  141  2019-08-20 13:07:27 export PATH="/Anaconda/anaconda3/bin:$PATH"
+  142  2019-08-20 13:07:31 echo
+  143  2019-08-20 13:07:32 export
+  144  2019-08-20 13:07:51 vi ~/.profile
+  145  2019-08-20 13:08:03 vi /etc/pro
+  146  2019-08-20 13:08:08 vi /etc/profile
+  147  2019-08-20 13:08:16 vi ~/.bashrc 
+  148  2019-08-20 13:08:41 conda -V
+  149  2019-08-20 13:09:22 export
+  150  2019-08-20 13:10:42 vi /etc/profile
+  151  2019-08-20 13:10:51 whereis conda
+  152  2019-08-20 13:11:01 vi /root/.bashrc 
+  153  2019-08-20 13:11:28 source ~/.bashrc 
+  154  2019-08-20 13:11:30 conda -V
+  155  2019-08-20 13:11:48 export
+  156  2019-08-20 13:12:16 unset
+  157  2019-08-20 13:12:20 export CONDA_EXE="/Anaconda/bin/conda"
+  158  2019-08-20 13:12:35 export CONDA_EXE="/Anaconda/anaconda3/bin/conda"
+  159  2019-08-20 13:12:37 conda -V
+  160  2019-08-20 13:12:48 export CONDA_EXE="/Anaconda/anaconda3/bin/conda"
+  161  2019-08-20 13:12:57 export CONDA_PYTHON_EXE="/Anaconda/anaconda3/bin/python"
+  162  2019-08-20 13:12:59 conda -V
+  163  2019-08-20 13:13:15 export
+  164  2019-08-20 13:13:27 clear
+  165  2019-08-20 13:13:31 clr
+  166  2019-08-20 13:13:32 cls
+  167  2019-08-20 13:13:33 clear
+  168  2019-08-20 13:13:35 clean
+  169  2019-08-20 13:13:49 export
+  170  2019-08-20 13:14:09 clear
+  171  2019-08-20 13:14:27 ~$ export TERMINFO=/usr/share/terminfo
+  172  2019-08-20 13:14:33 export TERMINFO=/usr/share/terminfo
+  173  2019-08-20 13:14:35 clear
+  174  2019-08-20 13:14:42 export
+  175  2019-08-20 13:15:10 conda -V
+  176  2019-08-20 13:15:22 ls
+  177  2019-08-20 13:15:24 conda 
+  178  2019-08-20 13:15:29 cat conda
+  179  2019-08-20 13:15:49 cd ..
+  180  2019-08-20 13:15:50 ls
+  181  2019-08-20 13:15:52 cd ..
+  182  2019-08-20 13:15:55 ls
+  183  2019-08-20 13:16:01 rm -r anaconda3/
+  184  2019-08-20 13:16:25 sudo gedit ~/.bashrc 
+  185  2019-08-20 13:16:35 sudo apt-get remove gedit
+  186  2019-08-20 13:16:45 vi ~/.bashrc 
+  187  2019-08-20 13:17:09 ls
+  188  2019-08-20 13:17:15 bash Anaconda3-2019.07-Linux-x86_64.sh.2 
+  189  2019-08-20 13:19:44 conda -V
+  190  2019-08-20 13:21:20 echo 'export PATH="/Anaconda/anaconda3/bin:$PATH"' >> ~/.bashrc
+  191  2019-08-20 13:21:25 source ~/.bashrc 
+  192  2019-08-20 13:22:31 conda deactivate
+  193  2019-08-20 13:22:50 jupyter ntebook --generate-config
+  194  2019-08-20 13:22:57 jupyter notebook --generate-config
+  195  2019-08-20 13:23:05 python
+  196  2019-08-20 13:23:42 vi ~/.jupyter/jupyter_notebook_config.py 
+  197  2019-08-20 13:28:10 ls
+  198  2019-08-20 13:28:10 cd ..
+  199  2019-08-20 13:28:11 ls
+  200  2019-08-20 13:28:14 mkdir jupyter
+  201  2019-08-20 13:28:15 cd jupyter/
+  202  2019-08-20 13:28:16 ls
+  203  2019-08-20 13:28:19 jupyter notebook
+  204  2019-08-20 13:28:26 jupyter notebook --allow-root
+  205  2019-08-20 13:28:56 vi ~/.ipython/profile_default/ipython_config.py
+  206  2019-08-20 13:29:53 cd /~.ipython
+  207  2019-08-20 13:29:54 ls
+  208  2019-08-20 13:29:56 cd ~/.
+  209  2019-08-20 13:30:05 vi ~/.ipython
+  210  2019-08-20 13:30:16 ls
+  211  2019-08-20 13:30:17 ls -a
+  212  2019-08-20 13:30:21 cd .jupyter/
+  213  2019-08-20 13:30:22 ls
+  214  2019-08-20 13:30:24 vi jupyter_notebook_config.py 
+  215  2019-08-20 16:13:27 ls
+  216  2019-08-20 16:13:34 cd /jupyter/
+  217  2019-08-20 16:13:34 ls
+  218  2019-08-20 16:13:38 git init
+  219  2019-08-20 16:14:23 cat ~/.ssh/id_rsa.pub 
+  220  2019-08-20 16:36:05 ls
+  221  2019-08-20 16:37:38 git init
+  222  2019-08-20 16:37:43 git remote add origin git@github.com:jolahua/JupyterServer.git
+  223  2019-08-20 16:37:47 git pull origin master
+  224  2019-08-21 00:14:47 ls
+  225  2019-08-21 00:14:49 git pull
+  226  2019-08-21 00:14:57 git pull origin master
+  227  2019-08-20 13:21:32 su root
+  228  2019-08-23 11:03:20 vi ~/.bashrc 
+  229  2019-08-23 11:03:45 source ~/.bashrc 
+  230  2019-08-23 11:03:58 conda decativate
+  231  2019-08-23 11:04:03 conda deactivate
+  232  2019-08-23 11:04:07 ls
+  233  2019-08-23 11:04:09 cd /
+  234  2019-08-23 11:04:09 ls
+  235  2019-08-23 11:04:11 cd jupyter/
+  236  2019-08-23 11:04:12 ls
+  237  2019-08-23 11:05:08 git pull
+  238  2019-08-23 11:05:16 git pull origin master
+  239  2019-08-23 11:06:57 git pull origin master
+  240  2019-08-23 11:07:07 ps aux|grep python
+  241  2019-08-23 11:07:20 ps aux|grep python
+  242  2019-08-23 11:09:08 sudo apt-get update
+  243  2019-08-23 11:09:14 sudo apt-get upgrade
+  244  2019-08-23 11:09:56 ps aux|grep python
+  245  2019-08-23 11:10:07 kill -9 12574
+  246  2019-08-23 11:10:10 ls
+  247  2019-08-23 11:10:12 kill -9 12574
+  248  2019-08-23 11:10:14 ps aux|grep python
+  249  2019-08-23 11:10:18 top
+  250  2019-08-23 11:10:51 sudo unattended-upgrade
+  251  2019-08-23 11:11:31 nohup jupyter notebook --allow-root &
+  252  2019-08-23 11:12:06 cd ..
+  253  2019-08-23 11:12:07 ls
+  254  2019-08-23 11:12:21 whereis tomcat
+  255  2019-08-23 11:12:42 ls
+  256  2019-08-23 11:12:48 mkdir servers
+  257  2019-08-23 11:12:50 cd servers/
+  258  2019-08-23 11:12:51 ls
+  259  2019-08-23 12:21:45 jdk -V
+  260  2019-08-23 12:21:52 jdk
+  261  2019-08-24 11:58:47 conda config --set auto_activate_base false
+  262  2019-08-24 11:58:51 conda deactivate
+  263  2019-08-24 12:01:12 sudo apt-get update
+  264  2019-08-24 12:06:58 sudo apt-get install openjdk-8-jdk
+  265  2019-08-24 12:08:31 java -version
+  266  2019-08-24 12:08:37 javac -Version
+  267  2019-08-24 12:08:40 javac -version
+  268  2019-08-24 14:24:13 vi /etc/
+  269  2019-08-24 14:24:25 vi /etc/ssh/sshd_config 
+  270  2019-08-24 14:25:01 sudo service ssh
+  271  2019-08-24 14:25:06 sudo service ssh restart
+  272  2019-08-24 14:25:18 history
+  273  2019-08-24 14:27:21 ls
+  274  2019-08-24 14:27:21 cd /
+  275  2019-08-24 14:27:22 ls
+  276  2019-08-24 14:27:25 cd servers/
+  277  2019-08-24 14:27:26 ls
+  278  2019-08-24 14:28:24 ls
+  279  2019-08-24 14:28:33 sudo tar -zxvf apache-tomcat-9.0.24.tar.gz 
+  280  2019-08-24 14:28:34 ls
+  281  2019-08-24 14:28:37 cd apache-tomcat-9.0.24/
+  282  2019-08-24 14:28:37 ls
+  283  2019-08-24 14:28:42 cd ..
+  284  2019-08-24 14:28:44 ls
+  285  2019-08-24 14:28:51 sudo chmod 755 -R apache-tomcat-9.0.24
+  286  2019-08-24 14:28:55 ll
+  287  2019-08-24 14:29:07 cd apache-tomcat-9.0.24/
+  288  2019-08-24 14:29:07 ls
+  289  2019-08-24 14:29:12 cd bin/
+  290  2019-08-24 14:29:13 ls
+  291  2019-08-24 14:30:22 cd /usr/local/
+  292  2019-08-24 14:30:23 ls
+  293  2019-08-24 14:30:28 whereis jdk
+  294  2019-08-24 14:30:33 whereis open
+  295  2019-08-24 14:30:38 cd bin/
+  296  2019-08-24 14:30:39 ls
+  297  2019-08-24 14:30:50 cd /usr/op
+  298  2019-08-24 14:30:54 cd /usr/
+  299  2019-08-24 14:30:54 ls
+  300  2019-08-24 14:30:59 ls -a
+  301  2019-08-24 14:31:55 update-alternatives --config java
+  302  2019-08-24 14:32:17 cd /usr/lib/jvm/
+  303  2019-08-24 14:32:18 ls
+  304  2019-08-24 14:32:29 cd java-1.8.0-openjdk-amd64
+  305  2019-08-24 14:32:30 ls
+  306  2019-08-24 14:32:37 cd ..
+  307  2019-08-24 14:32:39 cd java-8-openjdk-amd64/
+  308  2019-08-24 14:32:40 ls
+  309  2019-08-24 14:33:40 export
+  310  2019-08-24 14:35:28 cd /servers/
+  311  2019-08-24 14:35:29 ls
+  312  2019-08-24 14:29:16 vi startup.sh 
+  313  2019-08-24 14:35:58 ./startup.sh 
+  314  2019-08-24 14:36:20 ls
+  315  2019-08-24 14:36:21 cd ..
+  316  2019-08-24 14:36:21 ls
+  317  2019-08-24 14:36:23 cd conf/
+  318  2019-08-24 14:36:24 ls
+  319  2019-08-24 14:36:28 vi server.xml 
+  320  2019-08-24 14:36:33 ls
+  321  2019-08-24 14:36:35 vi web.xml 
+  322  2019-08-24 14:40:59 ls
+  323  2019-08-24 14:41:00 cd ..
+  324  2019-08-24 14:41:01 ls
+  325  2019-08-24 14:41:03 cd bin/
+  326  2019-08-24 14:41:09 ./shutdown.sh 
+  327  2019-08-24 14:41:11 ls
+  328  2019-08-24 14:41:13 cd ..
+  329  2019-08-24 14:41:14 ls
+  330  2019-08-24 14:41:18 rm -r webapps/
+  331  2019-08-24 14:41:51 unzip ApacheConf.zip 
+  332  2019-08-24 14:42:00 ls
+  333  2019-08-24 14:42:06 cd conf/
+  334  2019-08-24 14:42:06 ls
+  335  2019-08-24 14:42:07 cd ..
+  336  2019-08-24 14:42:10 rm -r conf/
+  337  2019-08-24 14:42:11 ls
+  338  2019-08-24 14:42:17 unzip ApacheConf.zip 
+  339  2019-08-24 14:42:24 cd conf/
+  340  2019-08-24 14:42:25 ls
+  341  2019-08-24 14:42:27 cd ..
+  342  2019-08-24 14:42:27 ls
+  343  2019-08-24 14:42:35 rm -f ApacheVue.zip 
+  344  2019-08-24 14:42:35 ls
+  345  2019-08-24 14:42:55 mkdir webapps
+  346  2019-08-24 14:43:02 mv conf/ webapps/
+  347  2019-08-24 14:43:02 ls
+  348  2019-08-24 14:43:03 cd webapps/
+  349  2019-08-24 14:43:04 ls
+  350  2019-08-24 14:43:12 mv conf/ ../
+  351  2019-08-24 14:43:12 ls
+  352  2019-08-24 14:43:13 cd ..
+  353  2019-08-24 14:43:13 ls
+  354  2019-08-24 14:43:18 mv dist.zip webapps/
+  355  2019-08-24 14:43:19 ls
+  356  2019-08-24 14:43:20 cd webapps/
+  357  2019-08-24 14:43:21 ls
+  358  2019-08-24 14:43:25 unzip dist.zip 
+  359  2019-08-24 14:43:25 ls
+  360  2019-08-24 14:43:28 cd ..
+  361  2019-08-24 14:43:29 cd bin/
+  362  2019-08-24 14:43:32 ./startup.sh 
+  363  2019-08-24 14:49:45 cd ..
+  364  2019-08-24 14:49:45 ls
+  365  2019-08-24 14:49:47 cd bin/
+  366  2019-08-24 14:49:47 ls
+  367  2019-08-24 14:49:52 ./shutdown.sh 
+  368  2019-08-24 14:49:53 ls
+  369  2019-08-24 14:49:54 cd ..
+  370  2019-08-24 14:49:55 ls
+  371  2019-08-24 14:49:56 cd ..
+  372  2019-08-24 14:49:56 ls
+  373  2019-08-24 14:50:02 rm -r apache-tomcat-9.0.24
+  374  2019-08-24 14:50:13 tar -zxvf apache-tomcat-9.0.24.tar.gz tomcat/
+  375  2019-08-24 14:51:20 tar -zxvf apache-tomcat-9.0.24.tar.gz -c tomcat/
+  376  2019-08-24 14:51:24 tar -zxvf apache-tomcat-9.0.24.tar.gz -C tomcat/
+  377  2019-08-24 14:51:26 tar -zxvf apache-tomcat-9.0.24.tar.gz -C tomcat
+  378  2019-08-24 14:51:30 mkdir tomcat
+  379  2019-08-24 14:51:33 tar -zxvf apache-tomcat-9.0.24.tar.gz tomcat/
+  380  2019-08-24 14:51:36 tar -zxvf apache-tomcat-9.0.24.tar.gz tomcat
+  381  2019-08-24 14:51:39 tar -zxvf apache-tomcat-9.0.24.tar.gz -C tomcat/
+  382  2019-08-24 14:51:40 ls
+  383  2019-08-24 14:51:42 cd tomcat/
+  384  2019-08-24 14:51:43 ls
+  385  2019-08-24 14:51:51 mv apache-tomcat-9.0.24/ ..
+  386  2019-08-24 14:51:53 mv apache-tomcat-9.0.24/ ../
+  387  2019-08-24 14:51:54 ls
+  388  2019-08-24 14:51:55 cd ..
+  389  2019-08-24 14:51:55 ls
+  390  2019-08-24 14:52:00 rm -r tomcat/
+  391  2019-08-24 14:52:05 mv apache-tomcat-9.0.24/ tomcat/
+  392  2019-08-24 14:52:06 ls
+  393  2019-08-24 14:52:08 cd tomcat/
+  394  2019-08-24 14:52:10 ls
+  395  2019-08-24 14:53:27 ls
+  396  2019-08-24 14:53:33 rm -r conf/
+  397  2019-08-24 14:53:37 unzip ApacheConf.zip 
+  398  2019-08-24 14:53:39 cd bin/
+  399  2019-08-24 14:53:41 vi startup.sh 
+  400  2019-08-24 14:54:38 ls
+  401  2019-08-24 14:54:40 cd ..
+  402  2019-08-24 14:54:41 ls
+  403  2019-08-24 14:54:46 mv dist.zip webapps/
+  404  2019-08-24 14:54:46 ls
+  405  2019-08-24 14:54:50 ls
+  406  2019-08-24 14:54:56 cd webapps/
+  407  2019-08-24 14:54:57 ls
+  408  2019-08-24 14:55:00 unzip dist.zip 
+  409  2019-08-24 14:55:02 ls
+  410  2019-08-24 14:55:03 cd ..
+  411  2019-08-24 14:55:05 cd bin/
+  412  2019-08-24 14:55:10 ./startup.sh 
+  413  2019-08-24 14:55:45 ps aux|grep python
+  414  2019-08-24 14:55:50 ps aux|grep httpd
+  415  2019-08-24 14:55:59 ls
+  416  2019-08-24 14:56:00 cd ..
+  417  2019-08-24 14:56:01 ls
+  418  2019-08-24 14:56:02 cd ..
+  419  2019-08-24 14:56:04 cd pyservers/
+  420  2019-08-24 14:56:04 ls
+  421  2019-08-24 14:56:31 nohup python deal_headers.py &
+  422  2019-08-24 14:56:37 python deal_headers.py 
+  423  2019-08-24 14:57:42 python deal_headers.py 
+  424  2019-08-24 14:57:47 pip 0V
+  425  2019-08-24 14:57:50 pip -V
+  426  2019-08-24 14:57:52 python -V
+  427  2019-08-24 14:57:55 pip install flask
+  428  2019-08-24 14:58:24 python deal_headers.py 
+  429  2019-08-24 14:58:33 pip install flask_restful
+  430  2019-08-24 14:58:37 python deal_headers.py 
+  431  2019-08-24 14:58:44 nohup python deal_headers.py &
+  432  2019-08-24 15:00:16 ls
+  433  2019-08-24 15:00:17 cd ..
+  434  2019-08-24 15:00:18 cd tomcat/webapps/
+  435  2019-08-24 15:00:19 ls
+  436  2019-08-24 15:00:21 rm -r dist
+  437  2019-08-24 15:00:22 ls
+  438  2019-08-24 15:00:26 unzip dist.zip 
+  439  2019-08-24 15:29:01 cd ..
+  440  2019-08-24 15:29:02 ls
+  441  2019-08-24 15:29:03 cd bin/
+  442  2019-08-24 15:29:05 ./shutdown.sh 
+  443  2019-08-24 15:29:24 cd ..
+  444  2019-08-24 15:29:28 cd ..
+  445  2019-08-24 15:29:32 rm -t tomcat/
+  446  2019-08-24 15:29:32 ls
+  447  2019-08-24 15:29:35 rm -r tomcat/
+  448  2019-08-24 15:29:42 tar -zxvf apache-tomcat-9.0.24.tar.gz 
+  449  2019-08-24 15:29:46 mv apache-tomcat-9.0.24 tomcat/
+  450  2019-08-24 15:29:46 ls
+  451  2019-08-24 15:29:48 cd tomcat/
+  452  2019-08-24 15:29:49 ls
+  453  2019-08-24 15:29:51 cd conf/
+  454  2019-08-24 15:29:53 vi server.xml 
+  455  2019-08-24 15:31:16 cd ..
+  456  2019-08-24 15:31:16 ls
+  457  2019-08-24 15:31:17 cd webapps/
+  458  2019-08-24 15:31:32 ls
+  459  2019-08-24 15:31:36 unzip dist.zip 
+  460  2019-08-24 15:33:20 ls
+  461  2019-08-24 15:33:21 cd ..
+  462  2019-08-24 15:33:22 ls
+  463  2019-08-24 15:33:24 cd bin/
+  464  2019-08-24 15:33:28 ./startup.sh 
+  465  2019-08-24 15:40:52 cd ..
+  466  2019-08-24 15:41:00 cd conf/
+  467  2019-08-24 15:41:03 vi server.xml 
+  468  2019-08-24 15:42:37 vi server.xml 
+  469  2019-08-24 15:43:34 cd ..
+  470  2019-08-24 15:43:36 cd bin/
+  471  2019-08-24 15:43:39 ./startup.sh 
+  472  2019-08-24 15:43:59 ./shutdown.sh 
+  473  2019-08-24 15:44:08 ./startup.sh 
+  474  2019-08-24 15:44:55 ./shutdown.sh 
+  475  2019-08-24 15:44:58 ls
+  476  2019-08-24 15:45:10 ps aux|grep 8080
+  477  2019-08-24 15:45:14 ps
+  478  2019-08-24 15:45:17 ps aux
+  479  2019-08-24 15:45:31 ./shutdown.sh 
+  480  2019-08-24 15:45:48 ./startup.sh 
+  481  2019-08-24 15:45:54 ./shutdown.sh 
+  482  2019-08-24 15:45:56 ./startup.sh 
+  483  2019-08-24 15:46:03 cd ..
+  484  2019-08-24 15:46:06 vi webapps/
+  485  2019-08-24 15:46:11 ls
+  486  2019-08-24 15:46:14 cd conf/
+  487  2019-08-24 15:46:16 vi server.xml 
+  488  2019-08-24 15:51:41 cd ..
+  489  2019-08-24 15:51:43 cd bin/
+  490  2019-08-24 15:51:45 ls
+  491  2019-08-24 15:51:47 ./startup.sh 
+  492  2019-08-24 16:21:53 cd .
+  493  2019-08-24 16:21:54 cd ..
+  494  2019-08-24 16:21:55 ls
+  495  2019-08-24 16:22:03 cd webapps/
+  496  2019-08-24 16:22:04 ls
+  497  2019-08-24 16:22:07 cd ..
+  498  2019-08-24 16:22:07 ls
+  499  2019-08-24 16:22:12 cd webapps/
+  500  2019-08-24 16:22:12 ls
+  501  2019-08-24 16:22:15 cd manager/
+  502  2019-08-24 16:22:15 ls
+  503  2019-08-24 16:22:18 cd ..
+  504  2019-08-24 16:22:21 cd examples/
+  505  2019-08-24 16:22:21 ls
+  506  2019-08-24 16:22:23 cd ..
+  507  2019-08-24 16:22:24 cd ROOT/
+  508  2019-08-24 16:22:24 ls
+  509  2019-08-31 18:09:29 ls
+  510  2019-08-31 18:09:33 pwdc
+  511  2019-08-31 18:09:35 pwd
+  512  2019-08-31 18:09:37 ls
+  513  2019-08-31 18:09:47 cd /
+  514  2019-08-31 18:09:49 ls
+  515  2019-08-31 18:12:41 wget -qO- https://get.docker.com/ | sh
+  516  2019-08-31 18:14:22  * Documentation:  https://help.ubuntu.com
+  517  2019-08-31 18:14:22  * Management:     https://landscape.canonical.com
+  518  2019-08-31 18:14:22  * Support:        https://ubuntu.com/advantage
+  519  2019-08-31 18:14:22 New release '18.04.2 LTS' available.
+  520  2019-08-31 18:14:22 Run 'do-release-upgrade' to upgrade to it.
+  521  2019-08-31 18:14:22 *** System restart required ***
+  522  2019-08-31 18:14:22 Last login: Sat Aug 31 18:03:42 2019 from 120.65.36.68
+  523  2019-08-31 18:14:22 root@VM-0-15-ubuntu:~# ls
+  524  2019-08-31 18:14:22 root@VM-0-15-ubuntu:~# pwdc
+  525  2019-08-31 18:14:23 No command 'pwdc' found, did you mean:
+  526  2019-08-31 18:14:23  Command 'pwd' from package 'coreutils' (main)
+  527  2019-08-31 18:14:23  Command 'ppdc' from package 'cups-ppdc' (main)
+  528  2019-08-31 18:14:23  Command 'pwdx' from package 'procps' (main)
+  529  2019-08-31 18:14:23 pwdc: command not found
+  530  2019-08-31 18:14:35 sudo apt update
+  531  2019-08-31 18:14:46 sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  532  2019-08-31 18:14:54 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  533  2019-08-31 18:15:04 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+  534  2019-08-31 18:15:08 sudo apt update
+  535  2019-08-31 18:15:26 apt-cache policy docker-ce
+  536  2019-08-31 18:15:31 sudo apt install docker-ce
+  537  2019-08-31 18:15:44 sudo systemctl status docker
+  538  2019-08-31 18:16:06 docker -version
+  539  2019-08-31 18:16:11 docker -v
+  540  2019-08-31 18:16:14 ls
+  541  2019-08-31 18:16:58 cd /etc/docker/
+  542  2019-08-31 18:16:58 l
+  543  2019-08-31 18:16:59 ls
+  544  2019-08-31 18:17:31 sudo tee /etc/docker/daemon.json <<-'EOF'
+  545  2020-03-06 10:58:48 {
+  546  2020-03-06 10:58:48   "registry-mirrors": ["http://hub-mirror.c.163.com"]
+  547  2020-03-06 10:58:48 }
+  548  2020-03-06 10:58:48 ;
+  549  2020-03-06 10:58:48 ;
+  550  2019-08-31 18:17:51 ls
+  551  2019-08-31 18:17:59 vi daemon.json
+  552  2019-08-31 18:18:26 ls
+  553  2019-08-31 18:18:36 sudo systemctl daemon-reload
+  554  2019-08-31 18:18:39 sudo systemctl restart docker
+  555  2019-08-31 18:18:50 docker -v
+  556  2019-08-31 18:19:09 docker pull mongo
+  557  2019-08-31 18:20:33 docker images
+  558  2019-08-31 18:21:37 ls
+  559  2019-08-31 18:21:39 cd ..
+  560  2019-08-31 18:21:41 cd /
+  561  2019-08-31 18:21:41 ls
+  562  2019-08-31 18:21:45 cd enviroment/
+  563  2019-08-31 18:21:45 ls
+  564  2019-08-31 18:21:53 mkdir mongo
+  565  2019-08-31 18:21:55 cd mongo/
+  566  2019-08-31 18:21:57 pwd
+  567  2019-08-31 18:22:00 /enviroment/mongo
+  568  2019-08-31 18:22:51  docker run -p 27017:27017 -v /enviroment/mongo/db:/data/db -d mongo
+  569  2019-08-31 18:22:53 ls
+  570  2019-08-31 18:22:58 cd db/
+  571  2019-08-31 18:22:58 ls
+  572  2019-09-01 00:43:26 ls
+  573  2019-09-01 00:43:29 cd /
+  574  2019-09-01 00:43:32 ls
+  575  2019-09-01 00:43:34 cd servers/
+  576  2019-09-01 00:43:34 ls
+  577  2019-09-01 00:43:42 rm apache-tomcat-9.0.24.tar.gz 
+  578  2019-09-01 00:43:43 ls
+  579  2019-09-01 00:43:45 cd pyservers/
+  580  2019-09-01 00:43:46 ls
+  581  2019-09-01 00:43:53 ps aux|grep python
+  582  2019-09-01 00:44:08 kill -9 21302
+  583  2019-09-01 00:44:10 ps aux|grep python
+  584  2019-09-01 00:44:12 ls
+  585  2019-09-01 00:44:21 mkdir dealHeader
+  586  2019-09-01 00:44:28 mv deal_headers.py dealHeader/
+  587  2019-09-01 00:44:31 rm -f nohup.out 
+  588  2019-09-01 00:44:32 ls
+  589  2019-09-01 00:44:33 cd dealHeader/
+  590  2019-09-01 00:44:34 ls
+  591  2019-09-01 00:44:40 nohup python deal_headers.py &
+  592  2019-09-01 00:44:42 ls
+  593  2019-09-01 00:44:47 ls
+  594  2019-09-01 00:44:52 ps aux|grep python
+  595  2019-09-01 00:44:58 cd ..
+  596  2019-09-01 00:44:58 ls
+  597  2019-09-01 00:46:08 mkdir hkbook
+  598  2019-09-01 00:46:12 cd hkbook/
+  599  2019-09-01 00:46:12 ls
+  600  2019-09-01 00:46:13 git init
+  601  2019-09-01 00:47:53 git remote add orign 
+  602  2019-09-01 00:48:06 git remote add origin git@github.com:Tsg-Team/DingDingHukouBook.git
+  603  2019-09-01 00:48:11 git pull origin master
+  604  2019-09-01 00:48:17 ls
+  605  2019-09-01 00:48:21 python main.py &
+  606  2019-09-01 00:48:27 pip2 -V
+  607  2019-09-01 00:48:36 pip2 install pymongo
+  608  2019-09-01 00:48:42 pip2 install flaks
+  609  2019-09-01 00:48:47 pip2 install flask
+  610  2019-09-01 00:48:53 pip2 install flask_restful
+  611  2019-09-01 00:49:00 pip2 install --upgrade pip2 
+  612  2019-09-01 00:49:04 pip2 install --upgrade pip 
+  613  2019-09-01 00:49:10 pip2 -v
+  614  2019-09-01 00:49:15 pip2 -V
+  615  2019-09-01 00:49:28 python main.py 
+  616  2019-09-01 00:49:34 pip2 install pymongo
+  617  2019-09-01 00:49:39 python2 main.py 
+  618  2019-09-01 00:58:55 nohup python2 main.py &
+  619  2019-09-01 00:58:57 vi nohup.out 
+  620  2019-09-01 00:59:06 cat nohup.out 
+  621  2019-09-01 01:03:04 cat nohup.out 
+  622  2019-09-01 13:53:49 cat nohup.out 
+  623  2019-09-01 16:36:12 cat nohup.out 
+  624  2019-09-01 16:36:17 ps aux|grep python
+  625  2019-09-01 16:36:50 kill -9 24204
+  626  2019-09-01 16:36:52 ps aux|grep python
+  627  2019-09-01 16:36:56 git pull
+  628  2019-09-01 16:37:05 git pull origin master
+  629  2019-09-01 16:37:14 python2 main.py 
+  630  2019-09-01 16:42:51 git pull
+  631  2019-09-01 16:43:09 git pull master origin
+  632  2019-09-01 16:43:14 git pull origin master
+  633  2019-09-01 16:44:49 git pull origin master
+  634  2019-09-01 16:45:14 python2 main.py 
+  635  2019-09-01 16:59:16 git pull origin master
+  636  2019-09-01 16:59:21 python2 main.py 
+  637  2019-09-01 17:03:35 git pull origin master
+  638  2019-09-01 17:03:39 git pull origin master
+  639  2019-09-01 17:03:50 python2 main.py 
+  640  2019-09-01 17:12:38 git pull origin master
+  641  2019-09-01 17:12:44 python2 main.py 
+  642  2019-09-01 17:36:51 git pull origin master
+  643  2019-09-01 17:37:19 python2 main.py 
+  644  2019-09-01 17:38:22 git pull origin master
+  645  2019-09-01 17:38:31 git pull origin master
+  646  2019-09-01 17:38:36 python2 main.py 
+  647  2019-09-01 17:40:57 git pull origin master
+  648  2019-09-01 17:41:02 python2 main.py 
+  649  2019-09-01 19:35:57 git pull origin master
+  650  2019-09-01 19:36:05 git branch
+  651  2019-09-01 19:36:08 python2 main.py 
+  652  2019-09-01 19:53:25 nohup python2 main.py &
+  653  2019-09-01 19:53:27 cat nohup.out 
+  654  2019-09-01 22:27:08 cat nohup.out 
+  655  2019-09-01 22:44:58 ps aux|grep python
+  656  2019-09-01 22:46:07 git pull
+  657  2019-09-01 22:46:16 git pull origin master
+  658  2019-09-01 22:46:24 ps aux|grep python
+  659  2019-09-01 22:46:29 kill -9 21304
+  660  2019-09-01 22:46:30 ps aux|grep python
+  661  2019-09-01 22:46:36 ps aux|grep python
+  662  2019-09-01 22:46:37 ps aux|grep python
+  663  2019-09-01 22:46:44 kill -9 25878
+  664  2019-09-01 22:46:45 ps aux|grep python
+  665  2019-09-01 22:46:48 git pull origin master
+  666  2019-09-01 22:46:56 nohup python2 main.py &
+  667  2019-09-01 22:47:58 cat nohup.out 
+  668  2019-09-01 22:48:08 cat nohup.out 
+  669  2019-09-08 18:53:04 ls
+  670  2019-09-08 18:53:06 cd /servers/
+  671  2019-09-08 18:53:06 ls
+  672  2019-09-08 18:53:09 cd pyservers/
+  673  2019-09-08 18:53:09 ls
+  674  2019-09-08 18:53:11 cd hkbook/
+  675  2019-09-08 18:53:12 ls
+  676  2019-09-08 18:53:14 git pull 
+  677  2019-09-08 18:54:08 git pull origin master
+  678  2019-09-08 18:54:38 ps aux|grep python
+  679  2019-09-08 18:54:42 kill -9 21136
+  680  2019-09-08 18:54:44 ls
+  681  2019-09-08 18:54:45 kill -9 21136
+  682  2019-09-08 18:54:51 ps aux|grep python
+  683  2019-09-08 18:54:54 python2 manager.py 
+  684  2019-09-08 18:55:21 pip2 install mongoengine
+  685  2019-09-08 18:55:43 python2 manager.py 
+  686  2019-09-08 23:15:16 ps
+  687  2019-09-08 23:15:17 ls
+  688  2019-09-08 23:15:24 nohup python2 manager.py &
+  689  2019-10-07 15:58:51 ls
+  690  2019-10-07 15:58:52 cd /
+  691  2019-10-07 15:58:53 ;s
+  692  2019-10-07 15:58:54 ls
+  693  2019-10-07 15:58:55 cd jo
+  694  2019-10-07 15:59:00 ls
+  695  2019-10-07 15:59:12 mkdir jola
+  696  2019-10-07 15:59:12 cd jola/
+  697  2019-10-07 15:59:13 ls
+  698  2019-10-07 15:59:21 rz
+  699  2019-10-07 15:59:27 apt install lrzsz
+  700  2019-10-07 15:59:43 rz
+  701  2019-10-07 16:00:26 ™jgƒ4s≈
+  702  2019-10-07 16:00:26 ëÃ˙â5ZÉDjxæµ
+  703  2019-10-07 16:00:26 ëÃ˙â5ZÉDjxæµ
+  704  2019-10-07 16:00:26 áinﬁj’.¥û2.{íÉ¸\.fFÄÚf≈Âe°ï≠•tg¢ˇÜ⁄≥.È≤ß–ÜŒzÇëeàSÂ∏ÊWÜã,™P¥iÍàÕf(á u·^´`≠
+  705  2019-10-07 16:00:26 (Öííä˚¥ªç¸(x;d?^Ê)≤µƒ˙,¯G∞ïë|ZzfásÊı +{vä›‰‘ÈΩÖ°B‰Ωƒ∏H˝
+  706  2019-10-07 16:00:26 Öííä˚¥ªç¸(x;d?^Ê)≤µƒ˙,¯G∞ïë|ZzfásÊı +{vä›‰‘ÈΩÖ°B‰Ωƒ∏H˝˜v u
+  707  2019-10-07 16:00:26 ˇÀŒ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=Ö
+  708  2019-10-07 16:00:26 ÀŒ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=Ö›úZ’jÏñºtNxÊï{‹È5åØÜt÷˚é˝ÖEÑÿÜ
+  709  2019-10-07 16:00:26 ÀŒ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=ÖÚË™Z<µZ¸-Ë¬„Ö∑Ç%BpjØlÖm'øÑﬁ7ƒ
+  710  2019-10-07 16:00:26 Œ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=Ö›úZ’jÏñºtNxÊï{‹È5åØÜt÷˚é˝ÖEÑÿÜJåÎM_è˜Ñq=ÚRúπ‰ó˛Öœ–Ê∂"˜˛¸:f.¬M*¸FOÜ
+  711  2020-03-06 10:58:48 ÀŒ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=ÖÚË™Z<µZ¸-Ë¬„Ö∑Ç%BpjØlÖm'øÑﬁ7ƒ‚î®zäc˝ƒ¯!`∏ﬂ
+  712  2019-10-07 16:00:26 ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=Ö›úZ’jÏñºtNxÊï{‹È5åØÜt÷˚é˝ÖEÑÿÜJåÎM_è˜Ñq=ÚRúπ‰ó˛Öœ–Ê∂"˜˛¸:f.¬M*¸FOÜ
+  713  2020-03-06 10:58:48 ÀŒ';˜wæ˙‚´ªüÏ¸ÉÁ.∂Ÿø4¢ñ>5H{êÊíß!˚ùñ¡œÛ`Ú⁄| ”Ñ∆8ª®Û˚Ü˛∂ˇÙ˜pHèzcûU)jƒ˛≤Qˇ≠™0´°J˝Ákü0GfΩYfcZßæπ$ÊDoóZ:S^ë^Ntú#+Ã°)‹DÉ"ËÜ«cX˚ˇ„Ìˇ~„Jí4Q_q,∞∏/=ÖÚË™Z<µZ¸-Ë¬„Ö∑Ç%BpjØlÖm'øÑﬁ7ƒ‚î®zäc˝ƒ¯!`∏ﬂO[Vµm(
+  714  2019-10-07 16:00:26 í≤ÇñÎß”áÛÛähÒıNâ∑€…NGâòqÌ*æ¸«ñ§µØ˘á†·…å7ôJ≠∞5WCJmáæaµg%∫§äÓ
+  715  2019-10-07 16:00:26 ≤ÇñÎß”áÛÛähÒıNâ∑€…NGâòqÌ*æ¸«ñ§µØ˘á†·…å7ôJ≠∞5WCJmáæaµg%∫§äÓ L'CcpÔÊ‰Lì·Ôaw7•œï
+  716  2019-10-07 16:00:26  "registry-mirrors": õŒΩƒ3Îì•nRi
+  717  2019-10-07 16:00:26 myan-word-breaker-master/word_breaker/__pycache__/word_segment_v5.cpython-37.pyc˛P$ 
+  718  2019-10-07 16:00:26 sæFOn/˙ìuöI$ 3–myan-word-breaker-master/word_breaker/__pycache__/__init__.cpython-37.pycPK|’^]|’§ﬂÈú·^]|  ’PKÈÔ]|’§ﬂÈú·ÈÔ]| ##y
+  719  2019-10-07 16:00:32 ls
+  720  2019-10-07 16:00:49 ls
+  721  2019-10-07 16:00:58 ls
+  722  2019-10-07 16:01:03 rm -f myan-word-breaker-master.zip 
+  723  2019-10-07 16:01:05 cd myan-word-breaker-master/
+  724  2019-10-07 16:01:05 ls
+  725  2019-10-07 16:01:11 pip install eventlet
+  726  2019-10-07 16:01:24 pip install timeout_decorator
+  727  2019-10-07 16:01:28 python -v
+  728  2019-10-07 16:01:42 python -Vrz
+  729  2019-10-07 16:01:46 python -V
+  730  2019-10-07 16:01:48 python
+  731  2019-10-07 16:01:52 ckear
+  732  2019-10-07 16:01:53 clear
+  733  2019-10-07 16:01:56 python demo.py 
+  734  2019-10-07 16:02:01 pip -V
+  735  2019-10-07 16:02:04 pip3 -V
+  736  2019-10-07 16:02:16 pip3 install eventlet timeout_decorator
+  737  2019-10-07 16:02:31 pip3 install --upgrade pip
+  738  2019-10-07 16:02:38 pip3 -V
+  739  2019-10-07 16:02:41 python3 demo.py 
+  740  2019-10-07 16:03:38 python3 demo.py 
+  741  2019-10-07 16:04:41 cat demo.py 
+  742  2019-10-07 16:04:59 cat demo.py 
+  743  2019-10-07 16:05:06 vim demo.py 
+  744  2019-10-07 16:05:24 vim demo.py 
+  745  2019-10-07 16:05:28 python3 demo.py 
+  746  2019-10-07 16:06:47 python3 demo.py 
+  747  2019-10-07 16:15:36 python3 demo.py 
+  748  2019-10-07 16:21:44 python3 demo.py 
+  749  2019-10-07 16:23:26 cat timeout.txt 
+  750  2019-10-07 16:23:34 cat timeout.txt 
+  751  2019-10-07 16:23:37 python3 demo.py 
+  752  2019-10-07 16:27:09 top
+  753  2019-10-07 16:27:32 cd /jola/
+  754  2019-10-07 16:27:33 ls
+  755  2019-10-07 16:27:34 cd myan-word-breaker-master/
+  756  2019-10-07 16:27:35 ls
+  757  2019-10-07 16:27:39 python3 demo.py 
+  758  2019-10-07 16:28:11 ls
+  759  2019-10-07 16:28:15 cat timeout.txt 
+  760  2019-10-07 16:34:34 python3 demo.py 
+  761  2019-10-07 16:34:55 python3 demo.py 
+  762  2019-10-07 20:59:04 ls
+  763  2019-10-07 20:59:05 '
+  764  2019-10-07 20:59:11 python3 demo.py 
+  765  2019-10-07 21:01:28 python3 demo.py 
+  766  2019-10-07 21:01:40 python3 demo.py 
+  767  2019-10-07 21:01:55 python3 demo.py -> output.txt
+  768  2019-10-07 21:02:19 ls
+  769  2019-10-07 21:02:22 cat output.txt 
+  770  2019-10-07 21:02:32 ls
+  771  2019-10-07 21:02:35 rm -f output.txt 
+  772  2019-10-07 21:02:47 nohup python3 demo.py -> output.txt
+  773  2019-10-07 21:03:30 ps aux|grep python
+  774  2019-10-07 21:03:50 vim output.txt 
+  775  2019-10-07 21:03:59 kill -9 29720
+  776  2019-10-07 21:04:04 ps aux|grep python
+  777  2019-10-07 21:04:38 ps aux|grep python
+  778  2019-10-07 21:04:48 tail -f output.txt 
+  779  2019-10-07 21:04:55 ps aux|grep python
+  780  2019-10-07 21:04:56 ps aux|grep python
+  781  2019-10-07 21:04:56 ps aux|grep python
+  782  2019-10-07 21:04:57 ps aux|grep python
+  783  2019-10-07 21:04:59 tail -f output.txt 
+  784  2019-10-07 21:05:31 vi output.txt 
+  785  2019-10-07 21:09:21 ps aux|grep python
+  786  2019-10-07 21:09:33 ps aux|grep nohup
+  787  2019-10-07 21:11:24 ps -aux | grep "test.sh" 
+  788  2019-10-07 21:11:29 ps -aux | grep "python" 
+  789  2019-10-07 21:11:46 kill -9 28950
+  790  2019-10-07 21:11:49 ps -aux | grep "python" 
+  791  2019-10-07 21:12:05 ps -aux | grep "python" 
+  792  2019-10-07 21:13:54 ps -aux | grep "python" 
+  793  2019-10-07 21:14:06 ps -aux | grep "demo.py" 
+  794  2019-10-07 21:15:13 pgrep demo.py
+  795  2019-10-07 21:15:32 killproc demo.py
+  796  2019-10-07 21:15:41 sudo apt-get install killproc
+  797  2019-10-07 21:16:06  ps -ef | grep demo.py | grep -v grep
+  798  2019-10-07 21:16:24 kill -9 34154 29115 29196
+  799  2019-10-07 21:16:28  ps -ef | grep demo.py | grep -v grep
+  800  2019-10-07 21:16:32 ps aux|grep python
+  801  2019-10-07 21:16:35 ls
+  802  2019-10-07 21:16:38 vi output.txt 
+  803  2019-10-07 21:17:10 python3 demo.py 
+  804  2019-10-07 21:19:06 python3 demo.py 
+  805  2019-10-07 21:19:17 clear
+  806  2019-10-07 21:19:23 python3 demo.py -> 1.txt
+  807  2019-10-07 21:19:25 rm -f output.txt 
+  808  2019-10-07 21:19:27 cat 1.txt 
+  809  2019-10-07 21:20:20 cat 1.txt 
+  810  2019-10-07 21:20:22 python3 demo.py -> 1.txt
+  811  2019-10-07 21:20:27 cat 1.txt 
+  812  2019-10-07 21:20:37 vi 1.txt 
+  813  2019-10-07 21:20:54 vi test_my.txt 
+  814  2019-10-07 21:21:28 python3 demo.py -> 1.txt
+  815  2019-10-07 21:22:24 vi 1.txt 
+  816  2019-10-07 21:24:03 python3 demo.py -> 1.txt
+  817  2019-10-07 21:31:01 python3 demo.py -> 1.txt
+  818  2019-10-07 21:31:21 ps aux|grep python
+  819  2019-10-07 21:31:24 vi 1.txt 
+  820  2019-10-07 21:33:49 clear
+  821  2019-10-07 21:33:53 python3 demo.py -> 1.txt
+  822  2019-10-07 21:34:24 clear
+  823  2019-10-07 21:34:25 python3 demo.py -> 1.txt
+  824  2019-10-07 21:34:42 vi 1.txt 
+  825  2019-10-07 21:40:01 python3 demo.py -> 1.txt
+  826  2019-10-07 21:40:19 vi 1.txt 
+  827  2019-10-07 21:43:59 python3 demo.py -> 1.txt
+  828  2019-10-07 21:44:03 vi 1.txt 
+  829  2019-10-07 21:46:26 python3 demo.py -> 1.txt
+  830  2019-10-07 21:54:13 clear
+  831  2019-10-07 21:54:15 python3 demo.py -> 1.txt
+  832  2019-10-07 21:54:20 vi 1.txt 
+  833  2019-10-07 21:54:28 python3 demo.py 
+  834  2019-10-07 21:54:50 python3 demo.py 
+  835  2019-10-07 21:55:22 vi demo.py 
+  836  2019-10-07 21:55:35 python3 demo.py 
+  837  2019-10-07 21:55:41 vi demo.py 
+  838  2019-10-07 21:55:49 python3 demo.py 
+  839  2019-10-07 21:58:02 python3 demo.py 
+  840  2019-10-07 21:58:15 python3 demo.py 
+  841  2019-10-07 22:02:25 python3 demo.py 
+  842  2019-10-07 22:02:31 python3 demo.py 
+  843  2019-10-07 22:02:45 python3 demo.py 
+  844  2019-10-07 22:02:54 python3 demo.py 
+  845  2019-10-07 22:03:20 python3 demo.py 
+  846  2019-10-07 22:04:26 python3 demo.py 
+  847  2019-10-07 22:04:40 vi demo.py 
+  848  2019-10-07 22:04:50 python3 demo.py 
+  849  2019-10-07 22:04:54 vi demo.py 
+  850  2019-10-07 22:05:05 python3 demo.py 
+  851  2019-10-07 22:06:43 python3 demo.py 
+  852  2019-10-07 22:08:14 python3 demo.py 
+  853  2019-10-07 22:08:47 python3 demo.py 
+  854  2019-10-07 22:09:13 python3 demo.py 
+  855  2019-10-07 22:09:24 python3 demo.py 
+  856  2019-10-07 22:09:50 python3 demo.py 
+  857  2019-10-07 22:10:30 python3 demo.py 
+  858  2019-10-07 22:24:25 python3 demo.py 
+  859  2019-10-07 22:24:48 python3 demo.py 
+  860  2019-10-07 22:28:10 python3 demo.py 
+  861  2019-10-07 22:30:15 python3 demo.py 
+  862  2019-10-07 22:44:39 python3 demo.py 
+  863  2019-10-07 22:45:18 python3 demo.py 
+  864  2019-10-07 22:49:34 python3 demo.py 
+  865  2019-10-07 22:52:09 python3 demo.py 
+  866  2019-10-07 22:55:11  ps -ef | grep demo.py | grep -v grep
+  867  2019-10-07 22:55:41  ps -ef | grep demo.py | grep -v grep
+  868  2019-10-07 22:55:56  ps -ef | grep demo.py | grep -v grep
+  869  2019-10-07 22:56:10 ps -aux | grep "python" 
+  870  2019-10-07 22:56:23 cd /jola/myan-word-breaker-master/
+  871  2019-10-07 22:58:24 ps aux|grep python
+  872  2019-10-07 22:58:29 top
+  873  2019-10-07 22:58:57 top
+  874  2019-10-07 22:59:01 top
+  875  2019-10-07 22:56:27 python3 demo.py 
+  876  2019-10-07 23:00:05 top
+  877  2019-10-07 23:00:09 ps aux|grep python
+  878  2019-10-07 23:00:10 ps aux|grep python
+  879  2019-10-07 23:00:12 ps aux|grep python
+  880  2019-10-07 23:00:13 ps aux|grep python
+  881  2019-10-07 23:00:13 ps aux|grep python
+  882  2019-10-07 23:00:13 ps aux|grep python
+  883  2019-10-07 23:00:13 ps aux|grep python
+  884  2019-10-07 23:00:14 ps aux|grep python
+  885  2019-10-07 23:00:14 ps aux|grep python
+  886  2019-10-07 23:00:14 ps aux|grep python
+  887  2019-10-07 23:00:14 ps aux|grep python
+  888  2019-10-07 23:00:15 ps aux|grep python
+  889  2019-10-07 23:00:54 python3 demo.py 
+  890  2019-10-07 23:04:20 ps uaxf|grep python3
+  891  2019-10-07 23:04:22 ps uaxf|grep python
+  892  2019-10-07 23:04:36 cd /jola/myan-word-breaker-master/
+  893  2019-10-07 23:04:37 ls
+  894  2019-10-07 23:04:51 vi newmy.txt 
+  895  2019-10-07 23:05:11 python3 demo.py 
+  896  2019-10-07 23:05:58 ps -auxf|grep python
+  897  2019-10-07 23:06:01 ps -auxf|grep demo
+  898  2019-10-07 23:06:04 python3 demo.py 
+  899  2019-10-07 23:06:42 ps -auxf|grep demo
+  900  2019-10-07 23:06:45 python3 demo.py 
+  901  2019-10-07 23:07:39 python3 demo.py 
+  902  2019-10-07 23:08:05 ps -auxf|grep demo
+  903  2019-10-07 23:08:06 python3 demo.py 
+  904  2019-10-07 23:08:54 cat newmy.txt 
+  905  2019-10-07 23:10:51 cat newmy.txt 
+  906  2019-10-07 23:10:54 python3 demo.py 
+  907  2019-10-07 23:11:53 python3 demo.py 
+  908  2019-10-07 23:12:57 python3 demo.py 
+  909  2019-10-07 23:25:46 python3 demo.py 
+  910  2019-10-07 23:27:34 python3 demo.py 
+  911  2019-10-31 15:02:16 ls
+  912  2019-10-31 15:02:22 cd spark/
+  913  2019-10-31 15:02:23 ls
+  914  2019-10-31 15:02:24 cd ..
+  915  2019-10-31 15:02:25 ls
+  916  2019-10-31 15:02:26 cd ..
+  917  2019-10-31 15:02:26 ls
+  918  2019-10-31 15:05:34 ls
+  919  2019-11-15 11:42:54 ls
+  920  2019-11-15 11:43:00 rm -f nohup.out 
+  921  2019-11-15 11:43:03 cd ..
+  922  2019-11-15 11:43:04 ls
+  923  2019-11-15 11:43:09 mkdir tttt
+  924  2019-11-15 11:43:11 cd tttt
+  925  2019-11-15 11:43:14 vim 1.txt
+  926  2019-11-15 11:44:17 cd ..
+  927  2019-11-15 11:44:21 rm -rf tttt
+  928  2019-11-15 11:54:35 top
+  929  2019-11-15 11:56:18 top
+  930  2019-11-15 11:56:23 top
+  931  2019-11-24 21:50:28 ls
+  932  2019-11-24 21:50:30 cd mess/
+  933  2019-11-24 21:50:31 ls
+  934  2019-11-24 21:50:35 cd ..
+  935  2019-11-24 21:50:36 ls
+  936  2019-11-24 21:50:38 mkdir okex
+  937  2019-11-24 21:50:39 cd okex/
+  938  2019-11-24 21:50:40 ls
+  939  2019-11-24 21:50:43 git clone https://github.com/okcoin-okex/open-api-v3-sdk.git
+  940  2019-11-28 14:25:33 ls
+  941  2019-11-28 14:25:34 cd ..
+  942  2019-11-28 14:25:37 ls
+  943  2019-11-28 14:25:41 cd ..
+  944  2019-11-28 14:25:43 ls
+  945  2019-11-28 14:25:44 cd servers/
+  946  2019-11-28 14:25:45 ls
+  947  2019-11-28 14:25:47 cd pyservers/
+  948  2019-11-28 14:25:49 ls
+  949  2019-11-28 14:25:53 cd dealHeader/
+  950  2019-11-28 14:25:54 ls
+  951  2019-11-28 14:25:59 rm -f nohup.out 
+  952  2019-11-28 14:26:02 vim deal_headers.py 
+  953  2019-11-28 14:28:33 grep python
+  954  2019-11-28 14:29:24 ls
+  955  2019-11-28 14:29:28 cd ..
+  956  2019-11-28 14:29:30 ls
+  957  2019-11-28 14:29:32 cd servers/
+  958  2019-11-28 14:29:33 ls
+  959  2019-11-28 14:29:36 cd pyservers/
+  960  2019-11-28 14:29:37 ls
+  961  2019-11-28 14:29:39 cd hkbook/
+  962  2019-11-28 14:29:40 ls
+  963  2019-11-28 14:29:52 cd ..
+  964  2019-11-28 14:29:54 cd ..
+  965  2019-11-28 14:30:02 ps aux|grep python
+  966  2019-11-28 14:30:26 kill -9 32515
+  967  2019-11-28 14:30:30 ps aux|grep python
+  968  2019-11-28 14:30:32 cd ..
+  969  2019-11-28 14:30:37 cd servers/
+  970  2019-11-28 14:30:37 ls
+  971  2019-11-28 14:30:39 cd pyservers/
+  972  2019-11-28 14:30:39 ls
+  973  2019-11-28 14:30:41 cd dealHeader/
+  974  2019-11-28 14:30:42 ls
+  975  2019-11-28 14:30:59 nohup python deal_headers.py &
+  976  2019-11-28 14:31:05 vim nohup.out 
+  977  2019-11-28 14:31:18 python -version
+  978  2019-11-28 14:31:22 python --version
+  979  2019-11-28 14:31:32 cat nohup.out 
+  980  2019-11-28 14:31:37 pip -v
+  981  2019-11-28 14:31:47 pip -V
+  982  2019-11-28 14:32:59 pip install flask-restfule
+  983  2019-11-28 14:33:03 pip install flask-restful
+  984  2019-11-28 14:33:20 nohup python deal_headers.py &
+  985  2019-11-28 14:33:25 cat nohup.out 
+  986  2019-11-28 14:34:39 cat deal_headers.py 
+  987  2019-12-17 22:56:45 ls
+  988  2019-12-17 22:56:53 cd nltk_data/
+  989  2019-12-17 22:56:54 ls
+  990  2020-03-04 16:40:33 ls
+  991  2020-03-04 16:40:37 cd nltk_data/
+  992  2020-03-04 16:40:37 ls
+  993  2020-03-04 16:40:39 ls
+  994  2020-03-04 16:40:41 cd ..
+  995  2020-03-04 16:40:42 cd ..
+  996  2020-03-04 16:40:42 ls
+  997  2020-03-04 16:40:44 cd oj
+  998  2020-03-04 16:40:47 cd jola/
+  999  2020-03-04 16:40:47 ls
+ 1000  2020-03-04 16:40:49 cd myan-word-breaker-master/
+ 1001  2020-03-04 16:40:50 ls
+ 1002  2020-03-04 16:40:55 cat demo.py 
+ 1003  2020-03-04 16:41:04 cd ..
+ 1004  2020-03-04 16:41:04 ls
+ 1005  2020-03-04 16:41:07 rm -rf myan-word-breaker-master/
+ 1006  2020-03-04 16:41:07 cd ..
+ 1007  2020-03-04 16:41:08 ls
+ 1008  2020-03-04 16:41:13 cd servers/
+ 1009  2020-03-04 16:41:13 ls
+ 1010  2020-03-04 16:41:16 cd pyservers/
+ 1011  2020-03-04 16:41:16 ls
+ 1012  2020-03-04 16:41:20 cd hkbook/
+ 1013  2020-03-04 16:41:20 ls
+ 1014  2020-03-04 16:41:27 ps aux|grep python
+ 1015  2020-03-04 16:41:32 ps aux|grep python
+ 1016  2020-03-04 16:41:41 ls
+ 1017  2020-03-04 16:41:42 cd ..
+ 1018  2020-03-04 16:41:43 ls
+ 1019  2020-03-04 16:41:45 rm -rf hkbook/
+ 1020  2020-03-04 16:41:52 ps aux|grep tomcat
+ 1021  2020-03-04 16:41:57 ps aux|grep vue
+ 1022  2020-03-04 16:42:09 ps aux|grep note
+ 1023  2020-03-04 16:42:11 ps aux|grep notejs
+ 1024  2020-03-04 16:43:11 ls
+ 1025  2020-03-04 16:43:12 cd ..
+ 1026  2020-03-04 16:43:14 ls
+ 1027  2020-03-04 16:43:15 cd tomcat/
+ 1028  2020-03-04 16:43:16 ls
+ 1029  2020-03-04 16:56:03 ps aux
+ 1030  2020-03-06 10:59:01 cd /jupyter/
+ 1031  2020-03-06 10:59:01 ls
+ 1032  2020-03-06 10:59:09 history 
+ 1033  2020-03-06 11:00:14 history > 1.txt
